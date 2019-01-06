@@ -1,0 +1,54 @@
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Presentaci\363n}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Organizaci\363n del contenido}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Notaci\363n, s\355mbolos y convenciones utilizadas}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Justificaci\363n}{}% 5
+\BOOKMARK [0][-]{chapter.3}{Objetivos}{}% 6
+\BOOKMARK [0][-]{chapter.4}{Antecedentes}{}% 7
+\BOOKMARK [1][-]{section.4.1}{Tendencias en Turismo}{chapter.4}% 8
+\BOOKMARK [1][-]{section.4.2}{Sistemas Existentes}{chapter.4}% 9
+\BOOKMARK [1][-]{section.4.3}{Servicios Tur\355sticos}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.4}{Problem\341tica}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.5}{Propuesta de Soluci\363n}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Propuesta de Soluci\363n}{}% 13
+\BOOKMARK [1][-]{section.5.1}{Arquitectura de Soluci\363n}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{M\363dulos}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{An\341lisis de Viabilidad}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.4}{Caracter\355sticas}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.6}{Modelo del Alcance}{}% 18
+\BOOKMARK [1][-]{section.6.1}{Modelado de Usuarios}{chapter.6}% 19
+\BOOKMARK [2][-]{subsection.6.1.1}{Organigrama de la Empresa}{section.6.1}% 20
+\BOOKMARK [2][-]{subsection.6.1.2}{Gerente de Ventas}{section.6.1}% 21
+\BOOKMARK [2][-]{subsection.6.1.3}{Agente de Ventas}{section.6.1}% 22
+\BOOKMARK [1][-]{section.6.2}{Requerimientos de usuario}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.3}{Especificaci\363n de plataforma}{chapter.6}% 24
+\BOOKMARK [0][-]{chapter.7}{Modelo del Negocio}{}% 25
+\BOOKMARK [1][-]{section.7.1}{Contexto}{chapter.7}% 26
+\BOOKMARK [1][-]{section.7.2}{T\351rminos del Negocio}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.3}{Modelo del dominio del problema}{chapter.7}% 28
+\BOOKMARK [2][-]{subsection.7.3.1}{Modelo del dominio del problema}{section.7.3}% 29
+\BOOKMARK [2][-]{subsection.7.3.2}{Entidad: Alumno}{section.7.3}% 30
+\BOOKMARK [2][-]{subsection.7.3.3}{Entidad: Alumno Extranjero}{section.7.3}% 31
+\BOOKMARK [1][-]{section.7.4}{Modelado de Reglas de negocio}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.5}{Modelo de Procesos AS-IS}{chapter.7}% 33
+\BOOKMARK [2][-]{subsection.7.5.1}{PROC-01 An\341lisis de requerimientos}{section.7.5}% 34
+\BOOKMARK [2][-]{subsection.7.5.2}{PROC-02 ...}{section.7.5}% 35
+\BOOKMARK [1][-]{section.7.6}{Modelo de procesos TO-BE}{chapter.7}% 36
+\BOOKMARK [2][-]{subsection.7.6.1}{PROCM-01 ...}{section.7.6}% 37
+\BOOKMARK [0][-]{chapter.8}{Modelo din\341mico}{}% 38
+\BOOKMARK [1][-]{section.8.1}{Descripci\363n de actores}{chapter.8}% 39
+\BOOKMARK [2][-]{subsection.8.1.1}{Gerente de Operaciones}{section.8.1}% 40
+\BOOKMARK [1][-]{section.8.2}{CU17 Inscribir a Seminario}{chapter.8}% 41
+\BOOKMARK [2][-]{subsection.8.2.1}{Descripci\363n completa}{section.8.2}% 42
+\BOOKMARK [2][-]{subsection.8.2.2}{Atributos importantes}{section.8.2}% 43
+\BOOKMARK [2][-]{subsection.8.2.3}{Trayectorias del Caso de Uso}{section.8.2}% 44
+\BOOKMARK [2][-]{subsection.8.2.4}{Puntos de extensi\363n}{section.8.2}% 45
+\BOOKMARK [0][-]{chapter.9}{Modelo de la interacci\363n}{}% 46
+\BOOKMARK [1][-]{section.9.1}{Modelo de navegaci\363n}{chapter.9}% 47
+\BOOKMARK [1][-]{section.9.2}{IU23 Pantalla de Control de Acceso}{chapter.9}% 48
+\BOOKMARK [2][-]{subsection.9.2.1}{Objetivo}{section.9.2}% 49
+\BOOKMARK [2][-]{subsection.9.2.2}{Dise\361o}{section.9.2}% 50
+\BOOKMARK [2][-]{subsection.9.2.3}{Salidas}{section.9.2}% 51
+\BOOKMARK [2][-]{subsection.9.2.4}{Entradas}{section.9.2}% 52
+\BOOKMARK [2][-]{subsection.9.2.5}{Comandos}{section.9.2}% 53
+\BOOKMARK [2][-]{subsection.9.2.6}{Mensajes}{section.9.2}% 54

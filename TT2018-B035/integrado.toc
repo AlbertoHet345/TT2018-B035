@@ -1,0 +1,110 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Organizaci\IeC {\'o}n del contenido}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Notaci\IeC {\'o}n, s\IeC {\'\i }mbolos y convenciones utilizadas}{1}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Justificaci\IeC {\'o}n}{3}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Objetivos}{5}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Antecedentes}{7}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Tendencias en Turismo}{7}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Sistemas Existentes}{7}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Servicios Tur\IeC {\'\i }sticos}{7}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Problem\IeC {\'a}tica}{7}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Propuesta de Soluci\IeC {\'o}n}{7}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Propuesta de Soluci\IeC {\'o}n}{9}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Arquitectura de Soluci\IeC {\'o}n}{9}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}M\IeC {\'o}dulos}{9}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}An\IeC {\'a}lisis de Viabilidad}{9}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Caracter\IeC {\'\i }sticas}{9}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Modelo del Alcance}{11}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Modelado de Usuarios}{11}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Organigrama de la Empresa}{11}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Gerente de Ventas}{11}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Agente de Ventas}{12}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Requerimientos de usuario}{12}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Especificaci\IeC {\'o}n de plataforma}{12}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Modelo del Negocio}{15}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Contexto}{15}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}T\IeC {\'e}rminos del Negocio}{15}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Modelo del dominio del problema}{16}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Modelo del dominio del problema}{16}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Entidad: Alumno}{16}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Entidad: Alumno Extranjero}{16}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Modelado de Reglas de negocio}{17}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Modelo de Procesos AS-IS}{20}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}PROC-01 An\IeC {\'a}lisis de requerimientos}{20}{subsection.7.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}PROC-02 ...}{21}{subsection.7.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Modelo de procesos TO-BE}{21}{section.7.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.6.1}PROCM-01 ...}{23}{subsection.7.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Modelo din\IeC {\'a}mico}{25}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Descripci\IeC {\'o}n de actores}{25}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}Gerente de Operaciones}{27}{subsection.8.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}CU17 Inscribir a Seminario}{28}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Descripci\IeC {\'o}n completa}{28}{subsection.8.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Atributos importantes}{28}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}Trayectorias del Caso de Uso}{28}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}Puntos de extensi\IeC {\'o}n}{30}{subsection.8.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Modelo de la interacci\IeC {\'o}n}{31}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Modelo de navegaci\IeC {\'o}n}{31}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}IU23 Pantalla de Control de Acceso}{31}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Objetivo}{31}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Dise\IeC {\~n}o}{31}{subsection.9.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.3}Salidas}{31}{subsection.9.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.4}Entradas}{31}{subsection.9.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.5}Comandos}{32}{subsection.9.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.6}Mensajes}{33}{subsection.9.2.6}

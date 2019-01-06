@@ -1,0 +1,67 @@
+\documentclass[10pt]{book}
+
+\usepackage{cdt/cdtUsecases}
+\usepackage{txfonts}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{bibliografia/bibliografia.bib}
+\title{TT2018-B035\bigskip\\Nombre del Proyecto}
+\subtitle{Asistente turístico basado en trazado de áreas geográficas de interés}
+\author{Alberto García Paul, Issac Meza Sánchez}
+\organization{Escuela Superior de Cómputo, IPN}
+\documento{bla}{bla}{\DRAFT{\today}}
+\showInstrucciones
+
+
+%\date{\color{red}Borrador del 21 de febrero del 2017\\(para revisión)}
+%\date{\color{green}Version 1.0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\ThisLRCornerWallPaper{1}{theme/bannerAzul}
+\maketitle
+\thispagestyle{empty}
+
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\include{projectCharter}
+
+\mainmatter
+\LRCornerWallPaper{1}{theme/plecaAyD}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%=========================================================
+\include{1introduccion}
+
+%=========================================================
+\include{justificacion/Justificacion}
+
+%=========================================================
+\include{objetivos/Objetivos}
+
+%=========================================================
+\include{antecedentes/Antecedentes}
+
+%=========================================================
+\include{propuestaSolicion/PropuestaSolucion}
+
+%=========================================================
+\include{2ModeloDelAlcance}
+
+%=========================================================
+\include{3ModeloDelNegocio}
+
+%=========================================================
+\include{4ModeloDinamico}
+
+%=========================================================
+\include{5ModeloDeInteraccion}
+
+\end{document}
