@@ -11,3 +11,4 @@ rm -rf *.bib
 rm -rf *run.xml
 rm -rf *.bbl
 rm -rf *.blg
+rm -rf *.pdf
