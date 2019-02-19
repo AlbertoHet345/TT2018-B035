@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  18 FEB 2019 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  18 FEB 2019 22:45
 entering extended mode
 **./integrado.tex
 (integrado.tex
@@ -1199,36 +1199,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 14.
+(Font)              scaled to size 13.67995pt on input line 15.
 <theme/plecaAyD.png, id=370, 1085.0136pt x 155.6214pt>
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 24.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 25.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
+l.25 
       [1
 
 
  <./theme/plecaAyD.png>]
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 82.
+Package pdftex.def Info: theme/headerPar.png  used on input line 79.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 82.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 79.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 	
+l.79 	
        [2])
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
@@ -2047,7 +2047,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
 Here is how much of TeX's memory you used:
  17721 strings out of 492946
  298488 string characters out of 3126266
- 596120 words of memory out of 3000000
+ 595120 words of memory out of 3000000
  20948 multiletter control sequences out of 15000+200000
  63280 words of font info for 135 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2112,7 +2112,7 @@ etic/uhvr8a.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/helvetic/uhvr8a.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/urw/times/utmr8a.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on integrado.pdf (49 pages, 5403390 bytes).
+Output written on integrado.pdf (49 pages, 5403446 bytes).
 PDF statistics:
  820 PDF objects out of 1000 (max. 8388607)
  204 named destinations out of 1000 (max. 500000)
