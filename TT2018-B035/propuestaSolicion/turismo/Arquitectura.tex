@@ -4,7 +4,7 @@ Se desarrollará una aplicación la cual contará con módulos móvil y módulos
 \begin{figure}[htbp]
 	\begin{center}
 		\hypertarget{fig:arquitecturaPropuesta}{
-			\includegraphics[scale=.4]{propuestaSolicion/turismo/images/arquitecturaPropuesta}
+			\includegraphics[angle=90, scale=.7]{propuestaSolicion/turismo/images/arquitecturaPropuesta}
 			\caption{Arquitectura de propuesta de solución}
 		}
 		\label{fig:arquitecturaPropuesta}
@@ -19,3 +19,29 @@ El actor \textbf{Administrador} será el encargado de hacer el registro de las �
 El actor \textbf{Turista} tendrá la posibilidad de registrarse en la aplicación para poder contar con el servicio que ésta ofrece, dentro de la aplicación se generarán rutas turísticas basadas en la localización del usuario y de esta forma podrá consultarse los servicios turísticos que se ofrecen dentro del área localizada.\\
 
 Así mismo se contará con un módulo de \textbf{Información y representación de estadísticas turísticas} en el cual se trabajará con la información del usuario para la generación de rutas, sugerencia de sitios y servicios disponibles en la zona localizada.
+
+\section{Módulos}
+
+En esta sección se describirán los módulos que se contemplan para el desarrollo del sistema, el diseño de los módulos fue hecho con base en el análisis de requerimientos (más adelante en el capítulo \hyperlink{cv:analisisSolucion}{Análisis de la Solución} se detallará este proceso) y tomando en cuenta las necesidades que debe cubrir. Así mismo este diseño fue tomado en cuenta para la planeación de los Sprints a desarrollar durante todo el Trabajo Terminal. \\
+
+A continuación se listarán los módulos contemplados para el sistema y una breve descripción de estos:
+
+\begin{description}
+	\item[Registro] Este módulo será mediante el cual los nuevos clientes de la aplicación se registrarán en ella para poder hacer uso de esta. 
+	
+	\item[Localización de rutas] Este módulo será el encargado de generar las rutas turísticas para los clientes de la aplicación, para ello depende del trazado de área de interés y del posicionamiento del cliente.
+	
+	\item [Posicionamiento] Este módulo se encargará de proporcionar la información de la posición en la que se encuentra el cliente, al módulo de \textbf{Localización de rutas}, cabe mencionar que para poder proporcionar el posicionamiento del cliente, este deberá encontrarse dentro del área de interés previamente trazada.
+	
+	\item [Interacción de la información] Dentro de este módulo se tratará la información proporcionada por el módulo \textbf{Localización de rutas}, \textbf{Registro de área turística} y \textbf{Servicios}, esta información servirá para trazar nuevas rutas turísticas en el módulo \textbf{Localización de rutas}, para identificar nuevos servicios turísticos o remover los que ya no se utilicen en el módulo \textbf{Servicios}, y por último proporcionará toda la información recabada al módulo \textbf{Información y representación de estadísticas turísticas}.
+	
+	\item [Servicios] Este módulo se encargará de identificar los servicios turísticos de la información proporcionada por el módulo \textbf{Interacción de la información}, y de igual manera se encargará de proporcionar información sobre estos servicios a los módulos: \textbf{Interacción de la información} e \textbf{Información y representación de estadísticas turísticas}.
+	
+	\item [Información y representación de estadísticas turísticas] En este módulo se recopilará la información de los módulos: \textbf{Interacción de la información} y \textbf{Servicios}; y se generarán estadísticas con base en esta información para proporcionarla de nuevo a los módulos anteriormente mencionados, y de esta manera generar las rutas turísticas.
+	
+	\item [Registro área turística] Este módulo será dirigido únicamente al administrador del sistema, ya que él será el encargado de hacer el registro de las áreas turísticas. Dentro de este módulo se registrará la información pertinente para poder realizar el trazado de rutas turísticas, así mismo será el módulo en el que se tracen las áreas de interés o geocercas.
+\end{description}
+
+Cabe mencionar que únicamente los módulos \textbf{Registro}, \textbf{Servicios}, \textbf{Información y representación de estadísticas turísticas} y \textbf{Registro área turística}, tendrán acceso a la base de datos del sistema. \\
+
+Una vez que se definieron los módulos que contemplará el sistema se decidió utilizar la metodología SCRUM para el desarrollo del sistema. Dicho proceso será descrito en la siguiente sección.
