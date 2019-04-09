@@ -1,6 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {table}{\numberline {1}{\ignorespaces Resumen del proyecto}}{\es@scroman {vii}}{table.0.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
@@ -13,6 +14,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {4.2}{\ignorespaces Requerimientos funcionales del sistema.}}{21}{table.4.2}% 
 \defcounter {refsection}{0}\relax 
+=======
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  8 APR 2019 20:51
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 APR 2019 18:37
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 entering extended mode
 **./integrado.tex
 (integrado.tex
@@ -868,19 +872,30 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
+<<<<<<< HEAD
  (projectCharter.aux) (1introduccion.aux)
 (justificacion/Justificacion.aux) (objetivos/Objetivos.aux)
 (antecedentes/Antecedentes.aux) (propuestaSolicion/PropuestaSolucion.aux)
 (analisisRequerimientos/AnalisisRequerimientos.aux) (2ModeloDelAlcance.aux)
 (3ModeloDelNegocio.aux) (4ModeloDinamico.aux) (5ModeloDeInteraccion.aux))
+=======
+ (./1introduccion.aux) (./justificacion/Justificacion.aux)
+(./objetivos/Objetivos.aux) (./antecedentes/Antecedentes.aux)
+(./propuestaSolicion/PropuestaSolucion.aux)
+(./analisisRequerimientos/AnalisisRequerimientos.aux))
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 \openout1 = `integrado.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 19.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 19.
 
 
+<<<<<<< HEAD
 ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omltxmi.fd
 "
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 19.
@@ -1094,7 +1109,11 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 23.
 "
 File: utxsyc.fd 2000/12/15 v3.1
 )
+<<<<<<< HEAD
 <theme/bannerAzul.png, id=252, 711.1368pt x 336.7782pt>
+=======
+<theme/bannerAzul.png, id=101, 711.1368pt x 336.7782pt>
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/bannerAzul.png Graphic file (type png)
 <use theme/bannerAzul.png>
 Package pdftex.def Info: theme/bannerAzul.png  used on input line 23.
@@ -1116,7 +1135,12 @@ LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 4.
+)
+\tf@toc=\write6
+\openout6 = `integrado.toc'.
+
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
+<<<<<<< HEAD
 (Font)              scaled to size 9.49997pt on input line 58.
  [1
 
@@ -1125,6 +1149,37 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
 \openout5 = `integrado.toc'.
 
 <theme/headerPar.png, id=334, 1204.5pt x 200.75pt>
+=======
+(Font)              scaled to size 9.49997pt on input line 28.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 28.
+ [1
+
+]
+<theme/headerPar.png, id=145, 1204.5pt x 200.75pt>
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 28.
@@ -1141,18 +1196,80 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 (Font)              scaled to size 4.74998pt on input line 28.
 LaTeX Font Info:    Try loading font information for U+mvs on input line 28.
 
+<<<<<<< HEAD
 ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosym\umvs.fd")
 [2 <./theme/headerPar.png>] (integrado.lof
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/marvosym/umvs.fd)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 28.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 28.
+ [2
+
+ <./theme/headerPar.png>] (./integrado.lof
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
+<<<<<<< HEAD
 \tf@lof=\write6
 \openout6 = `integrado.lof'.
 
  [3
 
 ]
+=======
+\tf@lof=\write7
+\openout7 = `integrado.lof'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 29.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 29.
+ [3]
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 29.
@@ -1164,6 +1281,7 @@ LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
+<<<<<<< HEAD
 \tf@lot=\write7
 \openout7 = `integrado.lot'.
 
@@ -1196,17 +1314,93 @@ File: theme/headerInp.png Graphic file (type png)
 Package pdftex.def Info: theme/headerInp.png  used on input line 31.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
  [7 <./theme/headerInp.png>]
+=======
+\tf@lot=\write8
+\openout8 = `integrado.lot'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 33.
+ [5]
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 33.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+<<<<<<< HEAD
  [8
 
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 33.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 33.
+ [6
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 
 ]
 \openout2 = `1introduccion.aux'.
 
+<<<<<<< HEAD
  (1introduccion.tex
+=======
+
+(./1introduccion.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -1222,11 +1416,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
+<theme/headerInp.png, id=177, 1204.5pt x 200.75pt>
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
 Package pdftex.def Info: theme/headerInp.png  used on input line 41.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+<<<<<<< HEAD
 <theme/plecaAyD.png, id=402, 1085.0136pt x 155.6214pt>
+=======
+<theme/plecaAyD.png, id=178, 1085.0136pt x 155.6214pt>
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 41.
@@ -1238,11 +1437,28 @@ been already used, duplicate ignored
 l.41 \include{1introduccion}
                              [1
 
- <./theme/plecaAyD.png>]
+ <./theme/plecaAyD.png> <./theme/headerInp.png>]
 \openout2 = `justificacion/Justificacion.aux'.
 
+<<<<<<< HEAD
 
 (justificacion/Justificacion.tex
+=======
+(./justificacion/Justificacion.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1314,11 +1530,27 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 44.
 [3]
 \openout2 = `objetivos/Objetivos.aux'.
 
+<<<<<<< HEAD
  (objetivos/Objetivos.tex
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 9.
+=======
+ (./objetivos/Objetivos.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 )
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
@@ -1336,7 +1568,40 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 47.
 
  (antecedentes/Antecedentes.tex
 Cap\'{\i }tulo 1.
+<<<<<<< HEAD
 (antecedentes/turismo/Turismo.tex
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+(./antecedentes/turismo/Turismo.tex
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1392,6 +1657,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
+
+LaTeX Font Info:    Try loading font information for OMS+txss on input line 10.
+
+LaTeX Font Info:    No file OMStxss.fd. on input line 10.
+
+LaTeX Font Warning: Font shape `OMS/txss/m/n' undefined
+(Font)              using `OMS/txsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 10.
 
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
@@ -1471,8 +1744,37 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 1.
 
 ]
 Cap\'{\i }tulo 2.
+<<<<<<< HEAD
 (propuestaSolicion/turismo/Arquitectura.tex
 <propuestaSolicion/turismo/images/arquitecturaPropuesta.png, id=459, 838.78369p
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+(./propuestaSolicion/turismo/Arquitectura.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+<propuestaSolicion/turismo/images/arquitecturaPropuesta.png, id=238, 838.78369p
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 t x 442.65375pt>
 File: propuestaSolicion/turismo/images/arquitecturaPropuesta.png Graphic file (
 type png)
@@ -1530,8 +1832,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
+<<<<<<< HEAD
 ) (propuestaSolicion/turismo/Modulos.tex
 <propuestaSolicion/turismo/images/metodologiaScrum.jpg, id=478, 722.7pt x 406.5
+=======
+) (./propuestaSolicion/turismo/Modulos.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+<propuestaSolicion/turismo/images/metodologiaScrum.jpg, id=258, 722.7pt x 406.5
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 1875pt>
 File: propuestaSolicion/turismo/images/metodologiaScrum.jpg Graphic file (type 
 jpg)
@@ -1600,12 +1919,39 @@ File: ot1txtt.fd 2000/12/15 v3.1
 )) (propuestaSolicion/turismo/Caracteristicas.tex
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
-Package pdftex.def Info: theme/headerInp.png  used on input line 14.
+Package pdftex.def Info: theme/headerInp.png  used on input line 8.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 14.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 8.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+<<<<<<< HEAD
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 8.
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
  [15]))
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
@@ -1626,23 +1972,159 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+<<<<<<< HEAD
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 30.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [17
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 9.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 9.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 9.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 9.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 9.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 9.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <24.88> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 23.63593pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 21.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 26.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 32.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 32.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 32.
+[17
 
 
 
-])
+]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 39.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 49.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 49.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 49.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 49.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
+
+
+LaTeX Warning: Reference `fig:ig:casosDeUso' on page 18 undefined on input line
+ 54.
+
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 56.
+Package pdftex.def Info: theme/headerPar.png  used on input line 71.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 71.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 71.
+[18])
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 56.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 56.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+<<<<<<< HEAD
  [18]
 \openout2 = `2ModeloDelAlcance.aux'.
 
@@ -2220,6 +2702,33 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 68.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
  [41]
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 56.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 56.
+ [19]
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 70.
@@ -2228,7 +2737,35 @@ File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+<<<<<<< HEAD
  [42
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 70.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 70.
+ [20
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 
 
 ]
@@ -2244,12 +2781,41 @@ File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 71.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+<<<<<<< HEAD
 [43]
+=======
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 71.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 71.
+[21]
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (integrado.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
+<<<<<<< HEAD
  (projectCharter.aux) (1introduccion.aux)
 (justificacion/Justificacion.aux) (objetivos/Objetivos.aux)
 (antecedentes/Antecedentes.aux) (propuestaSolicion/PropuestaSolucion.aux)
@@ -2259,6 +2825,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `integrado.out' has not changed.
 (rerunfilecheck)             Checksum: DED2BD3FCC139E36A263CCFEFF8F92F5;4238.
+=======
+ (./1introduccion.aux) (./justificacion/Justificacion.aux) (./objetivos/Objetiv
+os.aux) (./antecedentes/Antecedentes.aux)
+(./propuestaSolicion/PropuestaSolucion.aux)
+(./analisisRequerimientos/AnalisisRequerimientos.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `integrado.out' has not changed.
+(rerunfilecheck)             Checksum: 7C3A74CBCFA4F6242FCDF32FC1CDF2FA;1526.
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2272,6 +2848,7 @@ Package logreq Info: Writing requests to 'integrado.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  17779 strings out of 492946
  300050 string characters out of 3126266
  598781 words of memory out of 3000000
@@ -2344,4 +2921,27 @@ PDF statistics:
  915 PDF objects out of 1000 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 17369 strings out of 492649
+ 283570 string characters out of 6129622
+ 571956 words of memory out of 5000000
+ 20792 multiletter control sequences out of 15000+600000
+ 56350 words of font info for 125 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,15n,49p,1250b,1762s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb>
+Output written on integrado.pdf (29 pages, 331890 bytes).
+PDF statistics:
+ 372 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 0cdbdaa17392f44cdd9ddf8274b336ccf52c37fc
 

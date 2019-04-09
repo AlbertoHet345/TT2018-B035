@@ -7,19 +7,33 @@ En el presente capítulo se describirá el proceso de análisis de la solución,
 Dentro del análisis de la solución se contemplará: \textbf{análisis de requerimientos}, \textbf{análisis de procesos} y \textbf{análisis de casos de uso}. Dichos procesos serán descritos en las siguientes secciones.
 
 \section{Análisis de requerimientos}
-A continuación se describirán los requerimientos \hyperlink{cv:funcionales}{funcionales} y \hyperlink{cv:noFuncionales}{no funcionales} con los que debe contar el sistema para su correcto desarrollo.
+A continuación se describirán los requerimientos \hyperlink{cv:funcionales}{funcionales} y \hyperlink{cv:noFuncionales}{no funcionales} con los que debe contar el sistema para su correcto desarrollo. Para la identificación de los requerimientos se utilizará la siguiente nomenclatura: 
 
+\begin{center}
+\Huge{RN / RF \textit{n}: \textit{descripción\_requerimiento}}
+\end{center} 
+
+Donde: 
+
+\begin{itemize}
+	\item RN: significa Requerimiento No Funcional
+	\item RF: significa Requerimiento Funcional
+	\item \textit{n}: significa número de requerimiento
+	\item \textit{descripción\_requerimiento}: significa una breve descripción del requerimiento
+\end{itemize}
+
+Una vez determinada la nomenclatura para identificar a los requerimientos pasaremos a describirlos: 
 \hypertarget{cv:funcionales}{\subsection{Funcionales}}
 
 El sistema deberá:
 
 \begin{itemize}
-	\item Permitir el registro de una zona turística.
-	\item Permitir el trazado de un área geográfica de interés para la zona turística.
-	\item Notificar a un turista que ha ingresado a una zona turística previamente registrada y delimitada.
-	\item Mostrar la información de la zona turística al turista.
-	\item Mostrar los servicios turísticos de la zona al turista.
-	\item Crear rutas turísticas.
+	\item RF1: Permitir el registro de una zona turística.
+	\item RF2: Permitir el trazado de un área geográfica de interés para la zona turística.
+	\item RF3: Notificar a un turista que ha ingresado a una zona turística previamente registrada y delimitada.
+	\item RF4: Mostrar la información de la zona turística al turista.
+	\item RF5: Mostrar los servicios turísticos de la zona al turista.
+	\item RF6: Crear rutas turísticas.
 \end{itemize}
 
 \hypertarget{cv:noFuncionales}{\subsection{No funcionales}}
@@ -27,7 +41,33 @@ El sistema deberá:
 El sistema deberá tener: 
 
 \begin{itemize}
-	\item Alta disponibilidad.
-	\item Geolocalización.
-	\item Alta usabilidad
+	\item RN1: Alta disponibilidad.
+	\item RN2: Geolocalización.
+	\item RN3: Alta usabilidad
+\end{itemize}
+
+\section{Análisis de casos de uso}
+Para el análisis de casos de uso se tomaron en cuenta los requerimientos funcionales y los no funcionales, descritos en la sección anterior, que fueron identificados a partir de la propuesta de solución. \\
+
+Para poder llevar a cabo un correcto análisis de casos de uso primero se tuvo que tener bien identificados a loa actores o usuarios finales que participarán en el uso del sistema. Una vez identificados se realizó una arquitectura de solución en la cual se definieron los módulos a desarrollar para el sistema, el análisis de casos de uso parte tomando como base estos módulos ya que en ellos será donde se centre la interacción del usuario con el sistema. \\
+
+En la Figura \ref{fig:ig:casosDeUso} se muestra el diagrama general de los casos de uso identificados para el sistema, en él puede observarse que los casos de uso se encuentran divididos por actores y que cada uno de estos tiene un nombre. A continuación se muestra la nomenclatura utilizada para asignar el nombre a los casos de uso:
+
+\begin{center}
+	\Huge{\textit{Iniciales\_módulo}-CU\textit{n}: \textit{nombre\_caso\_de\_uso}}
+\end{center}
+
+Donde: 
+
+\begin{itemize}
+	\item \textbf{inicialies\_módulo}: significa que son las iniciales del módulo en el que se encuentra el caso de uso, los módulos son: 
+	\begin{itemize}
+		\item RE: Registro
+		\item LR: Localización de rutas
+		\item PO: Posicionamiento
+		\item II: Interacción de la información
+		\item SE: Servicios
+		\item IR: Información y representación de estadísticas turísticas
+		\item RA: Registro de área turística
+	\end{itemize}
 \end{itemize}
