@@ -52,3 +52,37 @@
 \contentsline {subsection}{\numberline {3.1.2}No funcionales}{18}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}An\IeC {\'a}lisis de casos de uso}{18}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Modelo din\IeC {\'a}mico}{21}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Descripci\IeC {\'o}n de actores}{22}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Gerente de Operaciones}{22}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}CU17 Inscribir a Seminario}{23}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Descripci\IeC {\'o}n completa}{23}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Atributos importantes}{23}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Trayectorias del Caso de Uso}{23}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Puntos de extensi\IeC {\'o}n}{25}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Modelo de la interacci\IeC {\'o}n}{27}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Modelo de navegaci\IeC {\'o}n}{27}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}IU23 Pantalla de Control de Acceso}{27}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Objetivo}{27}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Dise\IeC {\~n}o}{27}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Salidas}{27}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Entradas}{27}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Comandos}{28}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.6}Mensajes}{29}{subsection.5.2.6}

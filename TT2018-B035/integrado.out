@@ -22,3 +22,20 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Funcionales}{section.3.1}% 22
 \BOOKMARK [2][-]{subsection.3.1.2}{No funcionales}{section.3.1}% 23
 \BOOKMARK [1][-]{section.3.2}{An\341lisis de casos de uso}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Modelo din\341mico}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Descripci\363n de actores}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{Gerente de Operaciones}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{CU17 Inscribir a Seminario}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{Descripci\363n completa}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.2}{Atributos importantes}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.3}{Trayectorias del Caso de Uso}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.4}{Puntos de extensi\363n}{section.4.2}% 32
+\BOOKMARK [0][-]{chapter.5}{Modelo de la interacci\363n}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Modelo de navegaci\363n}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.2}{IU23 Pantalla de Control de Acceso}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.2.1}{Objetivo}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.2}{Dise\361o}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.3}{Salidas}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.4}{Entradas}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.5}{Comandos}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.6}{Mensajes}{section.5.2}% 41
