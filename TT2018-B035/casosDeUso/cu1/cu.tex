@@ -1,0 +1,113 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{CU1.1}{Registrar Usuario}{
+		Este caso de uso permite al usuario ingresar su información básica, esto para poder tener una cuenta única dentro del sistema y estar registrado con su información asociada. 
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
+		\UCitem{Propósito}{Que el usuario pueda registrarse para acceder al sistema.}
+		\UCitem{Entradas}{Correo electrónico, Contraseña, Nombre de Usuario.}
+		\UCitem{Origen}{Teclado}
+		\UCitem{Salidas}{N.A.}
+		\UCitem{Precondiciones}{El usurario debe haber instalado la aplicación en su teléfono}
+		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria}
+		\UCpaso[\UCactor] Da clic en el botón continuar de la pantalla \IUref{IU1}{Bienvenida}
+		\UCpaso Despliega la pantalla \IUref{IU2}{Login} mostrando las diferentes opciones de registro \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}, \IUbutton{Iniciar Sesión} y \IUbutton{Registrarse}.
+		\UCpaso[\UCactor] Selecciona registrarse mediante correo electrónico, dando clic en la opción \IUbutton{Registrarse}.\Trayref{A}.\Trayref{B}.
+		\UCpaso Despliega la pantalla \IUref{IU4}{Registro por Correo} mostrando los campos que el usuario debe ingresar.
+		\UCpaso[\UCactor] Introduce y selecciona la información solicitada en pantalla, posteriormente da clic en el botón \IUbutton{Registrarse}.\label{CU1-Registrar}.
+		\UCpaso Valida que el correo electrónico no se haya registrado anteriormente y no sea nulo.\Trayref{C}.
+		\UCpaso Valida que la contraseña cumpla con la longitud de 8 a 10 caracteres y que esta cuente con números y letras.\Trayref{D}.	
+		\UCpaso Valida que el nombre de usuario cumpla con la longitud de 2 a 30 caracteres y unicamente se ingresen letras.\Trayref{E}.
+		\UCpaso Valida que se haya seleccionado la opción de aceptar términos y condiciones.\Trayref{F}.
+		\UCpaso Registra al usuario en el sistema con una cuenta única.
+		\UCpaso Ingresa al sistema con la cuenta asociada.
+		\UCpaso[] Termina el caso de uso.
+		
+	\end{UCtrayectoria}
+
+%--------------------------------------		
+		\begin{UCtrayectoriaA}{A}{El usuario selecciona iniciar sesión mediante correo electrónico, dando clic en la opción \IUbutton{Iniciar sesión}}
+			
+			\UCpaso Despliega la pantalla \IUref{IU5}{Iniciar Sesión} mostrando los campos que el usuario debe ingresar.
+			
+			\UCpaso[\UCactor] Introduce y selecciona la información solicitada en pantalla, posteriormente da clic en el botón \IUbutton{Ingresar}.
+			
+			\UCpaso Valida que el correo electrónico se encuentre registrado y no sea nulo.\Trayref{A1}.
+
+			\UCpaso Valida que la contraseña coincida con la asociada al correo electrónico previamente ingresado.\Trayref{A2}.
+			
+			\UCpaso Ingresa al sistema con la cuenta asociada.
+			
+			\UCpaso[] Termina el caso de uso.
+			
+		\end{UCtrayectoriaA}
+		
+%--------------------------------------
+		\begin{UCtrayectoriaA}{B}{El usuario selecciona iniciar sesión mediante Facebook o una cuenta de Google, dando clic en la opción \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}}
+			
+			\UCpaso Verifica si hay una cuenta de facebook o google asociada en el sistema del teléfono.
+				
+			\UCpaso Despliega la pantalla emergente \IUref{IU6}{Iniciar con FB,G} mostrando la cuenta asociada al teléfono inteligente ya sea de Facebook o Google respectivamente.\Trayref{B1}.
+			
+			\UCpaso[\UCactor] Acepta ingresar con la cuenta mostrada dando clic en el botón  \IUbutton{Aceptar}.
+			\UCpaso Ingresa al sistema con la cuenta asociada.
+		
+			\UCpaso[] Termina el caso de uso.
+			
+		\end{UCtrayectoriaA}
+
+%--------------------------------------
+		\begin{UCtrayectoriaA}{C}{El correo electrónico ya esta registrad o es nulo}
+			
+			\UCpaso Muestra el mensaje arriba del campo correo electrónico{\bf MSG1 -}``Correo Electrónico inválido''.
+			
+			\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1.1}.
+			
+		\end{UCtrayectoriaA}
+
+%--------------------------------------
+		\begin{UCtrayectoriaA}{D}{La contraseña no coincide con la longitud o el tipo de dato .}
+			
+			\UCpaso Muestra el mensaje arriba del campo Contraseña {\bf MSG1 -}``Contraseña inválida''.
+				
+			\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1.1}.
+		
+	\end{UCtrayectoriaA}
+
+	\begin{UCtrayectoriaA}{E}{La contraseña no coincide con la longitud o el tipo de dato .}
+	
+	\UCpaso Muestra el mensaje arriba del campo Contraseña {\bf MSG1 -}``Contraseña inválida''.
+	
+	\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1.1}.
+	
+\end{UCtrayectoriaA}
+
+	\begin{UCtrayectoriaA}{F}{La contraseña no coincide con la longitud o el tipo de dato .}
+	
+	\UCpaso Muestra el mensaje arriba del campo Contraseña {\bf MSG1 -}``Contraseña inválida''.
+	
+	\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1.1}.
+	
+\end{UCtrayectoriaA}
+
+%--------------------------------------
+
+		
+		

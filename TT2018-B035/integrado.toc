@@ -52,3 +52,11 @@
 \contentsline {subsection}{\numberline {3.1.2}No funcionales}{18}{subsection.3.1.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}An\IeC {\'a}lisis de casos de uso}{18}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}CU1.1 Registrar Usuario}{20}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Descripci\IeC {\'o}n completa}{20}{subsection.3.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Atributos importantes}{20}{subsection.3.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{20}{subsection.3.3.3}% 
