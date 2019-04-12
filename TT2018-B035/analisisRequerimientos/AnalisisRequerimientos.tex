@@ -52,7 +52,23 @@ Para el análisis de casos de uso se tomaron en cuenta los requerimientos funcio
 
 Para poder llevar a cabo un correcto análisis de casos de uso primero se tuvo que tener bien identificados a loa actores o usuarios finales que participarán en el uso del sistema. Una vez identificados se realizó una arquitectura de solución en la cual se definieron los módulos a desarrollar para el sistema, el análisis de casos de uso parte tomando como base estos módulos ya que en ellos será donde se centre la interacción del usuario con el sistema. \\
 
-En la Figura \ref{fig:ig:casosDeUso} se muestra el diagrama general de los casos de uso identificados para el sistema, en él puede observarse que los casos de uso se encuentran divididos por actores y que cada uno de estos tiene un nombre. A continuación se muestra la nomenclatura utilizada para asignar el nombre a los casos de uso:
+En la Figura \ref{fig:casosDeUso} se muestra el diagrama general de los casos de uso identificados para el sistema, en él puede observarse que los casos de uso se encuentran divididos por actores y que cada uno de estos tiene un nombre.
+
+
+\hypertarget{fig:casosDeUso}{
+	\begin{figure}[htbp]
+		\begin{center}
+			\hypertarget{fig:casosDeUso}{
+				\includegraphics[angle=90, scale=.4]{casosDeUso/images/casosDeUso}
+				\caption{Casos de uso}
+			}
+			\label{fig:casosDeUso}
+		\end{center}
+	\end{figure}
+}
+
+\newpage
+A continuación se muestra la nomenclatura utilizada para asignar el nombre a los casos de uso:
 
 \begin{center}
 	\Huge{\textit{Iniciales\_módulo}-CU\textit{n}: \textit{nombre\_caso\_de\_uso}}
@@ -61,7 +77,7 @@ En la Figura \ref{fig:ig:casosDeUso} se muestra el diagrama general de los casos
 Donde: 
 
 \begin{itemize}
-	\item \textbf{inicialies\_módulo}: significa que son las iniciales del módulo en el que se encuentra el caso de uso, los módulos son: 
+	\item \textbf{iniciales\_módulo}: significa que son las iniciales del módulo en el que se encuentra el caso de uso, los módulos son: 
 	\begin{itemize}
 		\item RE: Registro
 		\item LR: Localización de rutas
@@ -71,6 +87,28 @@ Donde:
 		\item IR: Información y representación de estadísticas turísticas
 		\item RA: Registro de área turística
 	\end{itemize}
+
+	\item \textbf{n}: es el número de caso de uso.
+	
+	\item \textbf{nombre\_caso\_de\_uso}: es el nombre del caso de uso.
 \end{itemize}
+
+Para realizar la documentación se tomaron los casos de uso y se separaron por módulo. Cabe mencionar que aunque sean distintos módulos los casos de uso tienen una relación entre sí para poder construir el sistema. \\
+
+La documentación de los casos de uso se divide en tres partes:
+
+\begin{enumerate}
+	\item Descripción
+	\item Atributos
+	\item Trayectorias
+\end{enumerate}
+
+La descripción es un breve resumen de lo que trata el caso de uso, en ella se describe el por qué del caso de uso, para qué es importante tenerlo, el objetivo principal y lo que se obtiene al ejecutarlo.\\
+
+Los atributos son descritos en una tabla, esto facilita al desarrollador identificar las entradas y salidas del caso de uso, su precedencia y los cambios que produce al sistema. \\
+
+La trayectoria son los pasos a seguir para la correcta ejecución y desarrollo del caso de uso, en esta puede haber trayectorias alternativas, puntos de extensión a otros casos de uso o inclusión de otros casos casos de uso. \\
+
+A continuación se detallan los casos de uso:
 
 \input{casosDeUso}
