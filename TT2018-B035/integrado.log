@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  12 APR 2019 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  12 APR 2019 15:54
 entering extended mode
 **./integrado.tex
 (integrado.tex
@@ -871,7 +871,8 @@ LaTeX Info: Redefining \% on input line 30.
  (1introduccion.aux) (justificacion/Justificacion.aux)
 (objetivos/Objetivos.aux) (antecedentes/Antecedentes.aux)
 (propuestaSolicion/PropuestaSolucion.aux)
-(analisisRequerimientos/AnalisisRequerimientos.aux))
+(analisisRequerimientos/AnalisisRequerimientos.aux)
+(interaccion/interaccion.aux))
 \openout1 = `integrado.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 19.
@@ -1088,7 +1089,7 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 23.
 "
 File: utxsyc.fd 2000/12/15 v3.1
 )
-<theme/bannerAzul.png, id=132, 711.1368pt x 336.7782pt>
+<theme/bannerAzul.png, id=168, 711.1368pt x 336.7782pt>
 File: theme/bannerAzul.png Graphic file (type png)
 <use theme/bannerAzul.png>
 Package pdftex.def Info: theme/bannerAzul.png  used on input line 23.
@@ -1118,7 +1119,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
 \tf@toc=\write5
 \openout5 = `integrado.toc'.
 
-<theme/headerPar.png, id=184, 1204.5pt x 200.75pt>
+<theme/headerPar.png, id=229, 1204.5pt x 200.75pt>
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 28.
@@ -1188,12 +1189,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
-<theme/headerInp.png, id=215, 1204.5pt x 200.75pt>
+<theme/headerInp.png, id=262, 1204.5pt x 200.75pt>
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
 Package pdftex.def Info: theme/headerInp.png  used on input line 41.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
-<theme/plecaAyD.png, id=216, 1085.0136pt x 155.6214pt>
+<theme/plecaAyD.png, id=263, 1085.0136pt x 155.6214pt>
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 41.
@@ -1446,7 +1447,7 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 1.
 ]
 Cap\'{\i }tulo 2.
 (propuestaSolicion/turismo/Arquitectura.tex
-<propuestaSolicion/turismo/images/arquitecturaPropuesta.png, id=276, 838.78369p
+<propuestaSolicion/turismo/images/arquitecturaPropuesta.png, id=323, 838.78369p
 t x 442.65375pt>
 File: propuestaSolicion/turismo/images/arquitecturaPropuesta.png Graphic file (
 type png)
@@ -1505,7 +1506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 ) (propuestaSolicion/turismo/Modulos.tex
-<propuestaSolicion/turismo/images/metodologiaScrum.jpg, id=296, 722.7pt x 406.5
+<propuestaSolicion/turismo/images/metodologiaScrum.jpg, id=343, 722.7pt x 406.5
 1875pt>
 File: propuestaSolicion/turismo/images/metodologiaScrum.jpg Graphic file (type 
 jpg)
@@ -1626,29 +1627,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-
-LaTeX Warning: Reference `fig:ig:casosDeUso' on page 18 undefined on input line
- 55.
-
+<casosDeUso/images/casosDeUso.png, id=384, 1190.4475pt x 798.985pt>
+File: casosDeUso/images/casosDeUso.png Graphic file (type png)
+<use casosDeUso/images/casosDeUso.png>
+Package pdftex.def Info: casosDeUso/images/casosDeUso.png  used on input line 6
+8.
+(pdftex.def)             Requested size: 1190.4446pt x 798.98305pt.
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 72.
+Package pdftex.def Info: theme/headerPar.png  used on input line 70.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 72.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[18] (casosDeUso.tex (casosDeUso/cu1/cu.tex
+[18]
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
-Package pdftex.def Info: theme/headerInp.png  used on input line 15.
+Package pdftex.def Info: theme/headerInp.png  used on input line 70.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{fig:casos
+DeUso}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 \newpage
+              <./casosDeUso/images/casosDeUso.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+(casosDeUso.tex (casosDeUso/cu1/cu.tex
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 15.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
- [19]
-<theme/uc/default.png, id=344, 926.46124pt x 57.21375pt>
+ [20]
+<theme/uc/default.png, id=401, 926.46124pt x 57.21375pt>
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 15.
@@ -1663,17 +1701,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
 
  []
 
-<theme/uc/usecase.png, id=346, 91.34125pt x 61.22874pt>
+<theme/uc/usecase.png, id=403, 91.34125pt x 61.22874pt>
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 30.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-<theme/uc/iu.png, id=347, 61.22874pt x 55.20625pt>
+<theme/uc/iu.png, id=404, 61.22874pt x 55.20625pt>
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 30.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<theme/uc/actor.png, id=349, 96.36pt x 74.2775pt>
+<theme/uc/actor.png, id=406, 96.36pt x 74.2775pt>
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 31.
@@ -1740,15 +1778,15 @@ File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 40.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-File: theme/headerPar.png Graphic file (type png)
-<use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 41.
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 41.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 41.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[20 <./theme/uc/default.png> <./theme/uc/usecase.png> <./theme/uc/iu.png> <./th
+[21 <./theme/uc/default.png> <./theme/uc/usecase.png> <./theme/uc/iu.png> <./th
 eme/uc/actor.png> <C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/k
 eystroke/keystroke_left.pdf> <C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/
 tex/latex/keystroke/keystroke_middle.pdf> <C:/Users/Isaac/AppData/Local/Program
@@ -1843,15 +1881,15 @@ File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 97.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-File: theme/headerInp.png Graphic file (type png)
-<use theme/headerInp.png>
-Package pdftex.def Info: theme/headerInp.png  used on input line 99.
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 99.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 99.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
- [21]
+ [22]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 104.
@@ -1886,15 +1924,15 @@ Package pdftex.def Info: theme/uc/usecase.png  used on input line 131.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 )
 (casosDeUso/cu2/cu.tex
-File: theme/headerPar.png Graphic file (type png)
-<use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 15.
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 15.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
- [22]
+ [23]
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 15.
@@ -1941,42 +1979,199 @@ File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 47.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-)))
+) (casosDeUso/cu3/cu.tex
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [24]
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 31.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 31.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 33.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 35.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 35.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+
+Overfull \hbox (33.21375pt too wide) in paragraph at lines 35--36
+[][] \OT1/txss/m/n/10 Des-plie-ga la pan-ta-lla [] [][]IU8 Prin-ci-pal[][] con 
+los bo-to-nes  [][][][] ,  [][][][]
+ []
+
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 43.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 45.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 45.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+) (casosDeUso/cu4/cu.tex
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
-Package pdftex.def Info: theme/headerInp.png  used on input line 56.
+Package pdftex.def Info: theme/headerInp.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [25]
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 30.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 30.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 32.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 34.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 34.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+
+Overfull \hbox (33.21375pt too wide) in paragraph at lines 34--35
+[][] \OT1/txss/m/n/10 Des-plie-ga la pan-ta-lla [] [][]IU8 Prin-ci-pal[][] con 
+los bo-to-nes  [][][][] ,  [][][][]
+ []
+
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 42.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 44.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 44.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+)))
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 56.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 56.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
- [23]
-File: theme/headerPar.png Graphic file (type png)
-<use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 70.
-(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+ [26]
+\openout2 = `interaccion/interaccion.aux'.
+
+ (interaccion/interaccion.tex
+Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 33.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
- [24
+[27
+
 
 
 ]
-Overfull \hbox (26.17703pt too wide) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+)
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 59.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 59.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [28]
+Overfull \hbox (26.17703pt too wide) in paragraph at lines 74--74
 []\OT1/txss/m/n/10 Sin Au-tor. \OT1/txss/m/sl/10 Co-no-cien-do la me-to-do-log[
 ]a SCRUM: sus be-ne-fi-cios y ca-rac-ter[]sti-cas. \OT1/txss/m/n/10 2017. \OT
 1/txss/m/sc/10 url\OT1/txss/m/n/10 : [][]$\OT1/txtt/m/n/10 https : / / nativosd
 igitales .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 71.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 74.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
+[29
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (integrado.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
@@ -1984,33 +2179,34 @@ LaTeX Info: Redefining \% on input line 30.
  (1introduccion.aux) (justificacion/Justificacion.aux)
 (objetivos/Objetivos.aux) (antecedentes/Antecedentes.aux)
 (propuestaSolicion/PropuestaSolucion.aux)
-(analisisRequerimientos/AnalisisRequerimientos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+(analisisRequerimientos/AnalisisRequerimientos.aux)
+(interaccion/interaccion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `integrado.out' has not changed.
-(rerunfilecheck)             Checksum: D413A6A450D4EE5B838AD310804606D9;2171.
+(rerunfilecheck)             Checksum: 450C54D0AA397F1D13D06E448B20DF78;2841.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'integrado.run.xml'.
 \openout1 = `integrado.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 17502 strings out of 492946
- 294142 string characters out of 3126266
+ 17579 strings out of 492946
+ 295822 string characters out of 3126266
  588652 words of memory out of 3000000
- 20840 multiletter control sequences out of 15000+200000
+ 20856 multiletter control sequences out of 15000+200000
  61661 words of font info for 133 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,15n,49p,1252b,2183s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{IU7} has been referenced but does not exist, repl
+pdfTeX warning (dest): name{IU8} has been referenced but does not exist, repl
 aced by a fixed one
+
+pdfTeX warning (dest): name{IU7} has been referenced but does not exist, replac
+ed by a fixed one
 
 pdfTeX warning (dest): name{IU6} has been referenced but does not exist, replac
 ed by a fixed one
@@ -2043,9 +2239,9 @@ X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Isaac/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Isaac/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Isaac/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on integrado.pdf (33 pages, 412469 bytes).
+Output written on integrado.pdf (37 pages, 533303 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
- 322 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

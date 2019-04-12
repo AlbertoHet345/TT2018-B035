@@ -10,16 +10,16 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{CU3}{Principal}{
-		Este caso de uso permite al usuario visualizar las opciones de actividades a realizar ya sea consultar los servicios o generar una ruta. 
+	\begin{UseCase}{CU4}{servicios Turísticos}{
+		Este caso de uso permite al usuario visualizar el listado de los servicios turísticos ofrecidos en un área turística específica, catalogándolos por tipo de servicio o bien por un filtro donde el usuario puede buscar por nombre el servicio requerido. 
 	}
 		\UCitem{Versión}{\color{Gray}1.0}
 		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
-		\UCitem{Propósito}{Desplegar las opciones de actividades para un área seleccionada.}
+		\UCitem{Propósito}{Visualizar los servicios turísticos disponibles en el área.}
 		\UCitem{Entradas}{N.A.}
 		\UCitem{Origen}{N.A.}
 		\UCitem{Salidas}{Listado de Servicios Turísticos de un área}
-		\UCitem{Precondiciones}{El usurario requiere haber seleccionado un área turística.}
+		\UCitem{Precondiciones}{N.A.}
 		\UCitem{Postcondiciones}{N.A.}
 		\UCitem{Errores}{}
 		\UCitem{Tipo}{Caso de uso Secundario}
@@ -27,10 +27,9 @@
 	\end{UseCase}
 %--------------------------------------
 	\begin{UCtrayectoria} 
+		\UCpaso[\UCactor] Da clic en el botón \IUbutton{Servicios turísticos en el área} de la pantalla \IUref{IU8}{Principal}.
 		
-		\UCpaso[\UCactor] Selecciona un área turística de la pantalla \IUref{IU7}{Principal Zonas}.
-		
-		\UCpaso Verifica que el área o zona seleccionada corresponda con la posición actual del usuario.\Trayref{A}.
+		\UCpaso Obtiene el catálogo de los servicios turísticos registrados en el área.
 		
 		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los botones \IUbutton{Generar ruta a partir de la ubicación actual}, \IUbutton{Servicios turísticos en el área} habilitados.
 
@@ -42,7 +41,7 @@
 		\begin{UCtrayectoriaA}{A}{El usuario no se encuentra ubicado en alguna zona turística registrada}
 		\UCpaso Deshabilita el botón \IUbutton{Generar ruta a partir de la ubicación actual}.
 		
-		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} unicamente con el botón \IUbutton{Servicios turísticos en el área} habilitado.
+		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} unicamente con el botón \IUbutton{Servicios turísticos cerca de mi} habilitado.
 		
 		\UCpaso[] Termina el caso de uso.
 		
