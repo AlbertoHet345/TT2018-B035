@@ -1,0 +1,51 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{CU2}{Cargar Zonas Turísticas}{
+		Este caso de uso permite al usuario visualizar el listado las zonas turísticas que se encuentran registradas en la aplicación ademas de validar mediante GPS si en el momento de la visualización el usuario se encuentra dentro de una de las áreas. 
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
+		\UCitem{Propósito}{Visualizar el listado de las zonas turísticas.}
+		\UCitem{Entradas}{N.A.}
+		\UCitem{Origen}{Teclado}
+		\UCitem{Salidas}{Listado de Zonas Turísticas}
+		\UCitem{Precondiciones}{El usurario requiere haber iniciado sesión}
+		\UCitem{Postcondiciones}{N.A.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso[\UCactor] Da clic en la notificación o ingresa a la aplicación.
+		
+		\UCpaso Verifica a través del GPS que el usuario se encuentra dentro de un área turística registrada en el sistema \IUref{IU7}{Principal Zonas}.\Trayref{A}.
+		
+		\UCpaso Obtiene la información del área en la posición actual.
+		
+		\UCpaso Filtra por puntuación las 5 áreas mejor calificadas y obtiene su información.\label{CU2-ZonasTuristicas}.
+		
+		\UCpaso Despliega la pantalla \IUref{IU7}{Principal Zonas} con el listado de las zonas turísticas obtenidas.
+
+		\UCpaso[] Termina el caso de uso.
+		
+	\end{UCtrayectoria}
+
+%--------------------------------------		
+		\begin{UCtrayectoriaA}{A}{El usuario no se encuentra ubicado en ninguna zona turística registrada}
+			
+			\UCpaso Continúa en el paso \ref{CU2-ZonasTuristicas} del \UCref{CU1}.
+			
+		\end{UCtrayectoriaA}
+	
+	

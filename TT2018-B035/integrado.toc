@@ -53,12 +53,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}An\IeC {\'a}lisis de casos de uso}{18}{section.3.2}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.3}CU1.1 Registrar Usuario}{21}{section.3.3}
+=======
+\contentsline {section}{\numberline {3.3}CU1 Registrar Usuario}{20}{section.3.3}% 
+>>>>>>> 4b243b0421e3340fd688e8e3a78460d652bbf8cd
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Descripci\IeC {\'o}n completa}{21}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Atributos importantes}{21}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{21}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Modelo de Ineracci\IeC {\'o}n}{25}{chapter.4}
+=======
+\contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{20}{subsection.3.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}CU2 Cargar Zonas Tur\IeC {\'\i }sticas}{23}{section.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Descripci\IeC {\'o}n completa}{23}{subsection.3.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Atributos importantes}{23}{subsection.3.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Trayectorias del Caso de Uso}{23}{subsection.3.4.3}% 
+>>>>>>> 4b243b0421e3340fd688e8e3a78460d652bbf8cd
