@@ -60,3 +60,11 @@
 \contentsline {subsection}{\numberline {3.3.2}Atributos importantes}{20}{subsection.3.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{20}{subsection.3.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}CU2 Cargar Zonas Tur\IeC {\'\i }sticas}{23}{section.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Descripci\IeC {\'o}n completa}{23}{subsection.3.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Atributos importantes}{23}{subsection.3.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Trayectorias del Caso de Uso}{23}{subsection.3.4.3}% 
