@@ -1,0 +1,2247 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.18)  12 APR 2019 15:54
+entering extended mode
+**./integrado.tex
+(integrado.tex
+LaTeX2e <2018-12-01>
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk10.clo"
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(cdt/cdtUsecases.sty (cdt/cdtRequerimientos.sty (cdt/cdtBook.sty
+
+LaTeX Warning: You have requested package `cdt/cdtBook',
+               but the package provides `cdtBook'.
+
+Package: cdtBook 2010/05/30, v1.0 CDT-ESCOM-IPN Plantilla para reportes de la C
+oordinaci\unhbox \voidb@x \bgroup \let \unhbox \voidb@x \setbox \@tempboxa \hbo
+x {o\global \mathchardef \accent@spacefactor \spacefactor }\accent 19 o\egroup 
+\spacefactor \accent@spacefactor n
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
+Package: babel 2018/11/13 3.27 The Babel package
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count90
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count91
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cmbright\cmbright.
+sty"
+Package: cmbright 2005/04/13 v8.1 (WaS)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmbr/m/n on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmbr/m/n on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 30.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/cmbrm/m/it on input line 30.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmbrm/m/it --> OML/cmbrm/b/it on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmbrs/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmbr/m/sl on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmbr/m/sl on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmbr/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmbr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/m/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \alpha on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \beta on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \gamma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \delta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \zeta on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \eta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \theta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \iota on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \kappa on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \lambda on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \mu on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \nu on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \xi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \pi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \rho on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \tau on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \phi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \chi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \psi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \omega on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \varpi on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \varrho on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \varphi on input line 65.
+LaTeX Info: Redefining \LaTeX on input line 129.
+LaTeX Info: Redefining \LaTeXe on input line 139.
+LaTeX Font Info:    Try loading font information for OT1+cmbr on input line 144
+.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cmbright\ot1cmbr.f
+d"
+File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
+"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\dvipsnam.
+def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wallpaper\wallpape
+r.sty"
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip45
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.st
+y"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)))
+\wpXoffset=\skip46
+\wpYoffset=\skip47
+\tileXoffset=\skip48
+\tileYoffset=\skip49
+\tilewidth=\skip50
+\tileheight=\skip51
+\tileX=\skip52
+\tileY=\skip53
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks18
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg"))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fncychap\fncychap.
+sty"
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip63
+\mylen=\skip64
+\myhi=\skip65
+\px=\skip66
+\py=\skip67
+\pyy=\skip68
+\pxx=\skip69
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosym\marvosym.
+sty"
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+y"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count98
+\LTcapwidth=\dimen116
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count99
+\LT@rows=\count100
+\c@LT@tables=\count101
+\c@LT@chunks=\count102
+\LT@p@ftn=\toks19
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen117
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count105
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
+cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count106
+ ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen118
+\Fld@menulength=\count107
+\Field@Width=\dimen119
+\Fld@charsize=\dimen120
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
+)
+Package hyperref Info: Driver: hpdftex.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
+check.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip74
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
+sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
+\col@sep=\dimen121
+\ar@mcellbox=\box31
+\extrarowheight=\dimen122
+\NC@list=\toks21
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box32
+)
+\everycr=\toks22
+\minrowclearance=\skip77
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
+sty"
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip78
+\multirow@cntb=\count113
+\multirow@dima=\skip79
+\bigstrutjot=\dimen123
+))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chapterfolder\chap
+terfolder.sty"
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+\c@@cf@currentpos=\count114
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+sty"
+\lst@mode=\count115
+\lst@gtempboxa=\box33
+\lst@token=\toks23
+\lst@length=\count116
+\lst@currlwidth=\dimen124
+\lst@column=\count117
+\lst@pos=\count118
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count119
+\lst@lineno=\count120
+\lst@maxwidth=\dimen127
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count121
+\lst@skipnumbers=\count122
+\lst@framebox=\box34
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/keystroke\keystrok
+e.sty"
+Package: keystroke 2010/04/23 v1.6 3D keystrokes (SuSE GmbH/RN)
+\suse@key=\box35
+\keystroke@left=\box36
+\keystroke@right=\box37
+\keystroke@middle=\box38
+<keystroke_left.pdf, id=1, 42.1575pt x 195.73125pt>
+File: keystroke_left.pdf Graphic file (type pdf)
+<use keystroke_left.pdf>
+Package pdftex.def Info: keystroke_left.pdf  used on input line 171.
+(pdftex.def)             Requested size: 42.15738pt x 195.73076pt.
+<keystroke_middle.pdf, id=2, 116.435pt x 195.73125pt>
+File: keystroke_middle.pdf Graphic file (type pdf)
+<use keystroke_middle.pdf>
+Package pdftex.def Info: keystroke_middle.pdf  used on input line 172.
+(pdftex.def)             Requested size: 116.43471pt x 195.73076pt.
+<keystroke_right.pdf, id=3, 42.1575pt x 195.73125pt>
+File: keystroke_right.pdf Graphic file (type pdf)
+<use keystroke_right.pdf>
+Package pdftex.def Info: keystroke_right.pdf  used on input line 173.
+(pdftex.def)             Requested size: 42.15738pt x 195.73076pt.
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks26
+))))
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\txfonts.st
+y"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmbr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmbr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmbr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmbr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmbr/m/sl --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmbr/m/sl --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtl/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtl/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmbrm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmbrm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmbrs/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmbrs/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+sty"
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count123
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count124
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count125
+\c@listtotal=\count126
+\c@listcount=\count127
+\c@liststart=\count128
+\c@liststop=\count129
+\c@citecount=\count130
+\c@citetotal=\count131
+\c@multicitecount=\count132
+\c@multicitetotal=\count133
+\c@instcount=\count134
+\c@maxnames=\count135
+\c@minnames=\count136
+\c@maxitems=\count137
+\c@minitems=\count138
+\c@citecounter=\count139
+\c@maxcitecounter=\count140
+\c@savedcitecounter=\count141
+\c@uniquelist=\count142
+\c@uniquename=\count143
+\c@refsection=\count144
+\c@refsegment=\count145
+\c@maxextratitle=\count146
+\c@maxextratitleyear=\count147
+\c@maxextraname=\count148
+\c@maxextradate=\count149
+\c@maxextraalpha=\count150
+\c@abbrvpenalty=\count151
+\c@highnamepenalty=\count152
+\c@lownamepenalty=\count153
+\c@maxparens=\count154
+\c@parenlevel=\count155
+\blx@tempcnta=\count156
+\blx@tempcntb=\count157
+\blx@tempcntc=\count158
+\blx@maxsection=\count159
+\blx@maxsegment@0=\count160
+\blx@notetype=\count161
+\blx@parenlevel@text=\count162
+\blx@parenlevel@foot=\count163
+\blx@sectionciteorder@0=\count164
+\blx@entrysetcounter=\count165
+\labelnumberwidth=\skip80
+\labelalphawidth=\skip81
+\biblabelsep=\skip82
+\bibitemsep=\skip83
+\bibnamesep=\skip84
+\bibinitsep=\skip85
+\bibparsep=\skip86
+\bibhang=\skip87
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count166
+\c@maxcomprange=\count167
+\c@mincompwidth=\count168
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.de
+f"
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count169
+\c@savedafterword=\count170
+\c@annotator=\count171
+\c@savedannotator=\count172
+\c@author=\count173
+\c@savedauthor=\count174
+\c@bookauthor=\count175
+\c@savedbookauthor=\count176
+\c@commentator=\count177
+\c@savedcommentator=\count178
+\c@editor=\count179
+\c@savededitor=\count180
+\c@editora=\count181
+\c@savededitora=\count182
+\c@editorb=\count183
+\c@savededitorb=\count184
+\c@editorc=\count185
+\c@savededitorc=\count186
+\c@foreword=\count187
+\c@savedforeword=\count188
+\c@holder=\count189
+\c@savedholder=\count190
+\c@introduction=\count191
+\c@savedintroduction=\count192
+\c@namea=\count193
+\c@savednamea=\count194
+\c@nameb=\count195
+\c@savednameb=\count196
+\c@namec=\count197
+\c@savednamec=\count198
+\c@translator=\count199
+\c@savedtranslator=\count266
+\c@shortauthor=\count267
+\c@savedshortauthor=\count268
+\c@shorteditor=\count269
+\c@savedshorteditor=\count270
+\c@labelname=\count271
+\c@savedlabelname=\count272
+\c@institution=\count273
+\c@savedinstitution=\count274
+\c@lista=\count275
+\c@savedlista=\count276
+\c@listb=\count277
+\c@savedlistb=\count278
+\c@listc=\count279
+\c@savedlistc=\count280
+\c@listd=\count281
+\c@savedlistd=\count282
+\c@liste=\count283
+\c@savedliste=\count284
+\c@listf=\count285
+\c@savedlistf=\count286
+\c@location=\count287
+\c@savedlocation=\count288
+\c@organization=\count289
+\c@savedorganization=\count290
+\c@origlocation=\count291
+\c@savedoriglocation=\count292
+\c@origpublisher=\count293
+\c@savedorigpublisher=\count294
+\c@publisher=\count295
+\c@savedpublisher=\count296
+\c@language=\count297
+\c@savedlanguage=\count298
+\c@origlanguage=\count299
+\c@savedoriglanguage=\count300
+\c@pageref=\count301
+\c@savedpageref=\count302
+\shorthandwidth=\skip88
+\shortjournalwidth=\skip89
+\shortserieswidth=\skip90
+\shorttitlewidth=\skip91
+\shortauthorwidth=\skip92
+\shorteditorwidth=\skip93
+\locallabelnumberwidth=\skip94
+\locallabelalphawidth=\skip95
+\localshorthandwidth=\skip96
+\localshortjournalwidth=\skip97
+\localshortserieswidth=\skip98
+\localshorttitlewidth=\skip99
+\localshortauthorwidth=\skip100
+\localshorteditorwidth=\skip101
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compa
+t.def"
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-bibte
+x.def"
+File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+def"
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count303
+\c@textcitetotal=\count304
+\c@textcitemaxnames=\count305
+\c@biburlnumpenalty=\count306
+\c@biburlucpenalty=\count307
+\c@biburllcpenalty=\count308
+\c@smartand=\count309
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numer
+ic.bbx"
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
+ard.bbx"
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count310
+\c@bbx:relatedtotal=\count311
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numer
+ic.cbx"
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\spani
+sh.lbx"
+File: spanish.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count312
+\@quotereset=\count313
+(integrado.aux
+LaTeX Info: Redefining \sptext on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ (1introduccion.aux) (justificacion/Justificacion.aux)
+(objetivos/Objetivos.aux) (antecedentes/Antecedentes.aux)
+(propuestaSolicion/PropuestaSolucion.aux)
+(analisisRequerimientos/AnalisisRequerimientos.aux)
+(interaccion/interaccion.aux))
+\openout1 = `integrado.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 19.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 19.
+
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omltxmi.fd
+"
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 19.
+
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omstxsy.fd
+"
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 19.
+
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omxtxex.fd
+"
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 19.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 19.
+
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ot1txss.fd
+"
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 19.
+LaTeX Info: Redefining \sptext on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen128
+\scratchbox=\box39
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen129
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks28
+)
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box40
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(99.58464pt, 595.8007pt, 99.58464pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=595.8007pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-47.65834pt
+* \headheight=56.9055pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 19.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
+estring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count320
+)
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+ (integrado.out) (integrado.out)
+\@outlinefile=\write4
+\openout4 = `integrado.out'.
+
+\c@lstlisting=\count321
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `integrado-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'integrado.bbl' found.
+ (integrado.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'geovalla':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'scrum':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'importanciaTurismo':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'gps':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'turismoEnMexico':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'mtourism':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 23.
+ ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ot1txr.fd
+"
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 23.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxsya.fd"
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 23.
+ ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxsyb.fd
+"
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 23.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxmia.fd"
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 23.
+ ("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxsyc.fd
+"
+File: utxsyc.fd 2000/12/15 v3.1
+)
+<theme/bannerAzul.png, id=168, 711.1368pt x 336.7782pt>
+File: theme/bannerAzul.png Graphic file (type png)
+<use theme/bannerAzul.png>
+Package pdftex.def Info: theme/bannerAzul.png  used on input line 23.
+(pdftex.def)             Requested size: 614.30019pt x 290.91858pt.
+ [1
+
+
+{C:/Users/Isaac/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./theme/ban
+nerAzul.png>] [2
+
+]
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 27.
+ (integrado.toc
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 4.
+LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
+(Font)              scaled to size 9.49997pt on input line 64.
+ [1
+
+])
+\tf@toc=\write5
+\openout5 = `integrado.toc'.
+
+<theme/headerPar.png, id=229, 1204.5pt x 200.75pt>
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 28.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
+(Font)              scaled to size 7.59998pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <5> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 28.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 4.74998pt on input line 28.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 28.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosym\umvs.fd")
+[2 <./theme/headerPar.png>] (integrado.lof
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lof=\write6
+\openout6 = `integrado.lof'.
+
+ [3
+
+]
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 29.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+ [4
+
+] (integrado.lot
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lot=\write7
+\openout7 = `integrado.lot'.
+
+ [5]
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 33.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+
+[6
+
+]
+\openout2 = `1introduccion.aux'.
+
+ (1introduccion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+)
+<theme/headerInp.png, id=262, 1204.5pt x 200.75pt>
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 41.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+<theme/plecaAyD.png, id=263, 1085.0136pt x 155.6214pt>
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 41.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \include{1introduccion}
+                             [1
+
+ <./theme/plecaAyD.png> <./theme/headerInp.png>]
+\openout2 = `justificacion/Justificacion.aux'.
+
+(justificacion/Justificacion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 20.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 20.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 
+      [2
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 23--44
+
+ []
+
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 44.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 44.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[3]
+\openout2 = `objetivos/Objetivos.aux'.
+
+ (objetivos/Objetivos.tex)
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 47.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 47.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [4
+
+
+]
+\openout2 = `antecedentes/Antecedentes.aux'.
+
+ (antecedentes/Antecedentes.tex
+Cap\'{\i }tulo 1.
+(antecedentes/turismo/Turismo.tex
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) (antecedentes/turismo/SistemasExistentes.tex
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 6.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [5
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 19.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 19.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+) (antecedentes/turismo/ServiciosTuristicos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+txss on input line 10.
+
+LaTeX Font Info:    No file OMStxss.fd. on input line 10.
+
+LaTeX Font Warning: Font shape `OMS/txss/m/n' undefined
+(Font)              using `OMS/txsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 10.
+
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 13.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 13.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[7]) (antecedentes/turismo/Problematica.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) (antecedentes/turismo/PropuestaSolucion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 8.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 8.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+))
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 50.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 50.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [9]
+\openout2 = `propuestaSolicion/PropuestaSolucion.aux'.
+
+ (propuestaSolicion/PropuestaSolucion.tex
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 1.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 1.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [10
+
+
+
+]
+Cap\'{\i }tulo 2.
+(propuestaSolicion/turismo/Arquitectura.tex
+<propuestaSolicion/turismo/images/arquitecturaPropuesta.png, id=323, 838.78369p
+t x 442.65375pt>
+File: propuestaSolicion/turismo/images/arquitecturaPropuesta.png Graphic file (
+type png)
+<use propuestaSolicion/turismo/images/arquitecturaPropuesta.png>
+Package pdftex.def Info: propuestaSolicion/turismo/images/arquitecturaPropuesta
+.png  used on input line 9.
+(pdftex.def)             Requested size: 838.78163pt x 442.65265pt.
+
+
+LaTeX Warning: Float too large for page by 25.93385pt on input line 12.
+
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 14.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[11]
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 14.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 14.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [12 <./propuestaSolicion/turismo/images/arquitecturaPropuesta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 43.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 43.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+) (propuestaSolicion/turismo/Modulos.tex
+<propuestaSolicion/turismo/images/metodologiaScrum.jpg, id=343, 722.7pt x 406.5
+1875pt>
+File: propuestaSolicion/turismo/images/metodologiaScrum.jpg Graphic file (type 
+jpg)
+<use propuestaSolicion/turismo/images/metodologiaScrum.jpg>
+Package pdftex.def Info: propuestaSolicion/turismo/images/metodologiaScrum.jpg 
+ used on input line 9.
+(pdftex.def)             Requested size: 289.07487pt x 162.60461pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 31.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 31.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[14 <./propuestaSolicion/turismo/images/metodologiaScrum.jpg>])
+(propuestaSolicion/turismo/Analisis.tex
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 17.
+
+("C:\Users\Isaac\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ot1txtt.fd
+"
+File: ot1txtt.fd 2000/12/15 v3.1
+)) (propuestaSolicion/turismo/Caracteristicas.tex
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 8.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 8.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [15]))
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 53.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 53.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [16]
+\openout2 = `analisisRequerimientos/AnalisisRequerimientos.aux'.
+
+
+(analisisRequerimientos/AnalisisRequerimientos.tex
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <24.88> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 23.63593pt on input line 14.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 22.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 33.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[17
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+<casosDeUso/images/casosDeUso.png, id=384, 1190.4475pt x 798.985pt>
+File: casosDeUso/images/casosDeUso.png Graphic file (type png)
+<use casosDeUso/images/casosDeUso.png>
+Package pdftex.def Info: casosDeUso/images/casosDeUso.png  used on input line 6
+8.
+(pdftex.def)             Requested size: 1190.4446pt x 798.98305pt.
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 70.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[18]
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 70.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 70.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{fig:casos
+DeUso}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 \newpage
+              <./casosDeUso/images/casosDeUso.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+(casosDeUso.tex (casosDeUso/cu1/cu.tex
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [20]
+<theme/uc/default.png, id=401, 926.46124pt x 57.21375pt>
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+<theme/uc/usecase.png, id=403, 91.34125pt x 61.22874pt>
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 30.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+<theme/uc/iu.png, id=404, 61.22874pt x 55.20625pt>
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 30.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+<theme/uc/actor.png, id=406, 96.36pt x 74.2775pt>
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 31.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 31.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 32.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 32.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+
+Overfull \hbox (7.81854pt too wide) in paragraph at lines 32--33
+[][] \OT1/txss/m/n/10 Des-plie-ga la pan-ta-lla [] [][]IU2 Lo-gin[][] mos-tran-
+do las di-fe-ren-tes op-cio-nes de re-gis-tro  [][][][] ,  [][][][]
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 33.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+
+Overfull \hbox (18.2561pt too wide) in paragraph at lines 33--34
+[][]  \OT1/txss/m/n/10 Se-lec-cio-na re-gis-trar-se me-dian-te co-rreo electr[]
+oni-co, dan-do clic en la op-ci[]on  [][][][] .$\OT1/txr/m/n/10 [$\OT1/txss/m/n
+/10 Trayectoria A$\OT1/txr/m/n/10 ]$\OT1/txss/m/n/10 .$\OT1/txr/m/n/10 [$\OT1/t
+xss/m/n/10 Trayectoria
+ []
+
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 34.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 34.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 36.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 37.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 39.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 40.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 41.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 41.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[21 <./theme/uc/default.png> <./theme/uc/usecase.png> <./theme/uc/iu.png> <./th
+eme/uc/actor.png> <C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/k
+eystroke/keystroke_left.pdf> <C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/
+tex/latex/keystroke/keystroke_middle.pdf> <C:/Users/Isaac/AppData/Local/Program
+s/MiKTeX 2.9/tex/latex/keystroke/keystroke_right.pdf>]
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 41.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 42.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 47.
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <9> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 8.54997pt on input line 47.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 49.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 49.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 51.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 53.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 55.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 57.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 59.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 65.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 67.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 73.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 75.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 82.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 84.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 84.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 86.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 87.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 89.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 95.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 97.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 99.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 99.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [22]
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 104.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 106.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 113.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 115.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 121.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 123.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 129.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 131.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+)
+(casosDeUso/cu2/cu.tex
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [23]
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 30.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 32.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 32.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 34.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 36.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 38.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 47.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+) (casosDeUso/cu3/cu.tex
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [24]
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 31.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 31.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 33.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 35.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 35.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+
+Overfull \hbox (33.21375pt too wide) in paragraph at lines 35--36
+[][] \OT1/txss/m/n/10 Des-plie-ga la pan-ta-lla [] [][]IU8 Prin-ci-pal[][] con 
+los bo-to-nes  [][][][] ,  [][][][]
+ []
+
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 43.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 45.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 45.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+) (casosDeUso/cu4/cu.tex
+File: theme/headerInp.png Graphic file (type png)
+<use theme/headerInp.png>
+Package pdftex.def Info: theme/headerInp.png  used on input line 15.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [25]
+File: theme/uc/default.png Graphic file (type png)
+<use theme/uc/default.png>
+Package pdftex.def Info: theme/uc/default.png  used on input line 15.
+(pdftex.def)             Requested size: 550.53545pt x 33.9985pt.
+
+Overfull \hbox (50.05145pt too wide) in paragraph at lines 15--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: theme/uc/actor.png Graphic file (type png)
+<use theme/uc/actor.png>
+Package pdftex.def Info: theme/uc/actor.png  used on input line 30.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 30.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 32.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 34.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 34.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+
+Overfull \hbox (33.21375pt too wide) in paragraph at lines 34--35
+[][] \OT1/txss/m/n/10 Des-plie-ga la pan-ta-lla [] [][]IU8 Prin-ci-pal[][] con 
+los bo-to-nes  [][][][] ,  [][][][]
+ []
+
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 42.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/usecase.png Graphic file (type png)
+<use theme/uc/usecase.png>
+Package pdftex.def Info: theme/uc/usecase.png  used on input line 44.
+(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
+File: theme/uc/iu.png Graphic file (type png)
+<use theme/uc/iu.png>
+Package pdftex.def Info: theme/uc/iu.png  used on input line 44.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+)))
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 56.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 56.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [26]
+\openout2 = `interaccion/interaccion.aux'.
+
+ (interaccion/interaccion.tex
+Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 33.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[27
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+)
+File: theme/headerPar.png Graphic file (type png)
+<use theme/headerPar.png>
+Package pdftex.def Info: theme/headerPar.png  used on input line 59.
+(pdftex.def)             Requested size: 210.00035pt x 35.0pt.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 59.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+ [28]
+Overfull \hbox (26.17703pt too wide) in paragraph at lines 74--74
+[]\OT1/txss/m/n/10 Sin Au-tor. \OT1/txss/m/sl/10 Co-no-cien-do la me-to-do-log[
+]a SCRUM: sus be-ne-fi-cios y ca-rac-ter[]sti-cas. \OT1/txss/m/n/10 2017. \OT
+1/txss/m/sc/10 url\OT1/txss/m/n/10 : [][]$\OT1/txtt/m/n/10 https : / / nativosd
+igitales .
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+File: theme/plecaAyD.png Graphic file (type png)
+<use theme/plecaAyD.png>
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 74.
+(pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
+[29
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+ (integrado.aux
+LaTeX Info: Redefining \sptext on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ (1introduccion.aux) (justificacion/Justificacion.aux)
+(objetivos/Objetivos.aux) (antecedentes/Antecedentes.aux)
+(propuestaSolicion/PropuestaSolucion.aux)
+(analisisRequerimientos/AnalisisRequerimientos.aux)
+(interaccion/interaccion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package rerunfilecheck Info: File `integrado.out' has not changed.
+(rerunfilecheck)             Checksum: 450C54D0AA397F1D13D06E448B20DF78;2841.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'integrado.run.xml'.
+\openout1 = `integrado.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
+ ) 
+Here is how much of TeX's memory you used:
+ 17579 strings out of 492946
+ 295822 string characters out of 3126266
+ 588652 words of memory out of 3000000
+ 20856 multiletter control sequences out of 15000+200000
+ 61661 words of font info for 133 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,15n,49p,1252b,2183s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{IU8} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{IU7} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU6} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU5} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU4} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU2} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU1} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{Usuario} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{cv:analisisSolucion} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
+C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/marvosym/ma
+rvosym.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/txfonts/rtxsssc.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/txfonts/txsy.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/txfonts/txtt.pfb><C:/Users/Isaac/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Isaac/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Isaac/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Isaac/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on integrado.pdf (37 pages, 533303 bytes).
+PDF statistics:
+ 645 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+
