@@ -31,19 +31,26 @@
 		
 		\UCpaso Obtiene el catálogo de los servicios turísticos registrados en el área.
 		
-		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los botones \IUbutton{Generar ruta a partir de la ubicación actual}, \IUbutton{Servicios turísticos en el área} habilitados.
-
+		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los servicios turísticos catalogados y una barra de busqueda para filtrar por nombre los servicios.
+		
+		\UCpaso[\UCactor] Da clic en alguna categoría del catálogo mostrado.\Trayref{A}.
+		
+		\UCpaso  Filtra por la categoría seleccionada los servicios turísticos registrados en el área.
+		
+		\UCpaso Despliega el listado de los servicios filtrados, con el nombre, una brebe descripción y la puntuación de cada uno.\label{CU4-Servicios}
+		
+		\UCpaso Muestra la pantalla \IUref{IU8}{Principal} con el listado descrito, la barra de busqueda y las secciones de cada servicio habilitadas para dar clic y mostrar mayores especificaciones.
+		
 		\UCpaso[] Termina el caso de uso.
 		
 	\end{UCtrayectoria}
 
 %--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{El usuario no se encuentra ubicado en alguna zona turística registrada}
-		\UCpaso Deshabilita el botón \IUbutton{Generar ruta a partir de la ubicación actual}.
+		\begin{UCtrayectoriaA}{A}{El usuario realiza una consulta mediante la barra de búsqueda}
+			
+		\UCpaso Filtra por nombre del servicio con la información ingresada en la barra de busqueda.
 		
-		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} unicamente con el botón \IUbutton{Servicios turísticos cerca de mi} habilitado.
-		
-		\UCpaso[] Termina el caso de uso.
+		\UCpaso Continúa en el paso \ref{CU4-Servicios} del \UCref{CU4}.
 		
 	\end{UCtrayectoriaA}
 	
