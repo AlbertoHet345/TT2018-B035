@@ -56,11 +56,13 @@
 	\hypersetup{linkcolor=refColor}%
 }
 
-%-----------------------------------------------------
-% Referencia a una trayectoria alternativa
-% use \Trayref{Id}
-\newcommand{\Trayref}[1]{$[$Trayectoria #1$]$}
-
+%-------------------------------------------------------------------------
+% Referencia a una Trayectoria Alternativa.
+% use: \refTray{Id}
+\newcommand{\refTray}[1]{%
+	%
+	\hyperlink{tray:\arabic{counterUC}#1}{ $[$Trayectoria  #1$]$}%
+}
 
 %-----------------------------------------------------
 % Referencia a un requerimiento funcional
@@ -109,7 +111,8 @@
 % use \UCitem{item}{descripción}
 \newcommand{\UCitem}[2]{{\bf {#1:}} & {#2} \\ \hline}
 
-
+\newcounter{counterUC}
+\newcommand{\varIdUseCase}{}
 %-----------------------------------------------------
 % Comando para describir un Use Cases
 % usar:
@@ -120,6 +123,8 @@
 \newenvironment{UseCase}[4][default]%
 {%
 	\newpage%
+	\renewcommand{\varIdUseCase}{#2}%
+	\addtocounter{counterUC}{1}%
 	\noindent\hypertarget{#2}{\includegraphics[width=1.1\textwidth]{theme/uc/#1}}%
 	\section{#2 #3}%
 	\subsection{Descripción completa}%
@@ -188,13 +193,14 @@
 	\bigskip\noindent {\large {\bf Trayectoria principal}\\}%
 	\renewcommand{\labelenumi}{\textcolor{black}{\bf \theenumi}}%
 	\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}%
-}
-{%
-		\item[- -] - - {\em Fin del caso de uso}.%
-	\end{enumerate}%
+	}%
+	{%
+		\item[- -] - - {\em Fin del caso de uso}. \end{enumerate}%
 	\renewcommand{\labelenumi}{\theenumi}%
 }
 
+\newcommand{\varCurrentIdTray}{}
+\newcommand{\varCurrentFinTray}{}
 %-----------------------------------------------------
 % Comando para describir trayectorias Alternativas
 % use: 
@@ -204,16 +210,17 @@
 %    ...
 % \end{UCtrayectoria}
 % Al final se agrega automáticamente el paso de fin.
-\newenvironment{UCtrayectoriaA}[2]
+\newenvironment{UCtrayectoriaA}[3][Fin de trayectoria]
 {%
-	\bigskip\noindent {\large {\bf Trayectoria alternativa {#1}:}}\\%
-	{\small{\bf Condición:} {#2}}%
-	\renewcommand{\labelenumi}{\textcolor{black}{\bf {#1}\theenumi}}%
-	\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}%
-}
-{%
-		\item[- -] - - {\em {Fin de la trayectoria}}.%
-	\end{enumerate}%
+	\renewcommand{\varCurrentFinTray}{#1}%
+	\renewcommand{\varCurrentIdTray}{#2}%
+	\bigskip\noindent \hypertarget{tray:\arabic{counterUC}#2}{\large {\bf Trayectoria alternativa #2:}}%
+	\\{\small{\em\bf Condición:} {\em {#3}}}%
+	\renewcommand{\labelenumi}{\textcolor{black}{\bf {#2}-\theenumi}}%
+	\normalsize\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}%
+	}%
+	{%
+		\item[- -] - - {\em \varCurrentFinTray}. \end{enumerate}%
 	\renewcommand{\labelenumi}{\theenumi}%
 }
 
@@ -335,9 +342,27 @@ Comentarios:\bigskip\\%
 \begin{tabular}{|p{\textwidth}|} \hline \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\  \\ \hline \end{tabular}%
 }
 
+%-------------------------------------------------------------------------------------------
+% Definir un error:
+% \UCerr{num}{Condición}{Resultado}
+\newcommand{\UCerr}[3]{
+	\textbf{#1:} \hypertarget{\arabic{counterUC}:err#1} #2 #3
+}
+%-------------------------------------------------------------------------------------------
+% Referencia a un Error.
+% use: \refErr{Número}
+\newcommand{\refErr}[1]{%
+	%
+	\hyperlink{\arabic{counterUC}:err#1}{ $[$Error  #1$]$}%
+}
+
 %-----------------------------------------------------
 % Definir unas viñetas que ocupen poco espacio
 % use: \defSistema{nombre del sistema}
 \newcommand{\Sistema}{}
 \newcommand{\defSistema}[1]{\renewcommand{\Sistema}{#1}}
 
+%-------------------------------------------------------------------------
+% Referencia a un caso de uso incluido
+% use: \includeUC{Id}
+\newcommand{\includeUC}[2]{\UCpaso[] {\bf Incluye:} \cdtIdRef{#1}{#2}}

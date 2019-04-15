@@ -10,129 +10,127 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{CU1}{Registrar Usuario}{
-		Este caso de uso permite al usuario ingresar su información básica, esto para poder tener una cuenta única dentro del sistema y estar registrado con su información asociada. 
+	\begin{UseCase}{RE-CU1}{Registrar Usuario}{
+		Este caso de uso permite al turista ingresar su información básica, esto para poder tener una cuenta única dentro del sistema y estar registrado con su información asociada. Es importante el registro en la aplicación, ya que de esta forma el turista podrá acceder a la información sobre los sitios turísticos que se encuentren registrados en el sistema.\\
+		
+		El registro de un nuevo usuario puede hacerse mediante el uso de una cuenta de Facebook o una cuenta de Google que el turista ya tenga creada. Sin embargo, otra forma de registrarse en la aplicación puede ser mediante el uso de un correo electrónico del turista. \\
+		
+		Así mismo este caso de uso permitirá el inicio de sesión, en caso de que el turista ya se encuentre registrado en la aplicación.
 	}
 		\UCitem{Versión}{\color{Gray}1.0}
-		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
-		\UCitem{Propósito}{Que el usuario pueda registrarse para acceder al sistema.}
-		\UCitem{Entradas}{Correo electrónico, Contraseña, Nombre de Usuario.}
-		\UCitem{Origen}{Teclado}
-		\UCitem{Salidas}{N.A.}
-		\UCitem{Precondiciones}{El usurario debe haber instalado la aplicación en su teléfono}
-		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única.}
-		\UCitem{Errores}{}
+		\UCitem{Actor}{\hyperlink{actor:turista}{Turista}}
+		\UCitem{Propósito}{Que el turista pueda registrarse para acceder a la aplicación o, si ya se encuentra registrado, iniciar sesión en la misma.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Cuenta de Facebook
+				\UCli Cuenta de Google
+				\UCli Correo electrónico
+				\UCli Nombre de usuario
+				\UCli Contraseña
+			\end{UClist}
+		}
+		\UCitem{Origen}{\ioEscribir}
+		\UCitem{Salidas}{Ninguna}
+		\UCitem{Precondiciones}{El usurario debe haber instalado la aplicación en su teléfono o tener una cuenta creada para iniciar sesión}
+		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única, o accederá a la aplicación.}
+		\UCitem{Reglas de negocio}{
+			\begin{UClist}
+				\UCli \cdtIdRef{BR-001}{Longitud válida para contraseñas}
+				\UCli \cdtIdRef{BR-002}{Longitud válida para nombre de usuario}
+			\end{UClist}
+		}
+		\UCitem{Errores}{
+			\begin{UClist}
+				\UCli \UCerr{Uno}{Cuando el correo ingresado no el correo ingresado ya se encuentra registrado en el sistema,}{se muestra el mensaje \cdtIdRef{MSG}{Correo existente} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+				\UCli \UCerr{Dos}{Cuando el correo ingresado es nulo,}{se muestra el mensaje \cdtIdRef{MSG}{Correo inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+				\UCli \UCerr{Tres}{Cuando la contraseña ingresada no cumple con la regla \cdtIdRef{BR-001}{Longitud válida para contraseñas},}{se muestra el mensaje \cdtIdRef{MSG}{Formato de contraseña inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+				\UCli \UCerr{Cuatro}{Cuando el nombre de usuario ingresado no cumple la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario},}{muestra el mensaje \cdtIdRef{MSG}{Formato de nombre de usuario inválido} y continua \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+				\UCli \UCerr{Cinco}{Cuando el turista no acepta los términos y condiciones,}{muestra el mensaje \cdtIdRef{MSG}{Términos y condiciones no aceptados} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+				\UCli \UCerr{Seis}{Cuando no se puede llevar a cabo la operación de manera exitosa,}{muestra el mensaje \cdtIdRef{MSG2}{Operación fallida} y termina el caso de uso.}
+				\UCli \UCerr{Siete}{Cuando el correo electrónico o la contraseña ingresados son incorrectos,}{muestra el mensaje \cdtIdRef{MSG}{Correo y/o contraseña incorrectos} y continua en el paso \ref{RE-CU1:iniciarSesion} de la trayectoria alterna \textbf{A}.}
+			\end{UClist}
+		}
 		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{}
 	\end{UseCase}
 %--------------------------------------
 	\begin{UCtrayectoria}
+		\UCpaso [\UCactor] Ingresa a la aplicación tocando el icono \IUref{IU0}{Icono de la aplicación} en la pantalla de su teléfono.
+		
 		\UCpaso Despliega la pantalla  \IUref{IU1}{Bienvenida}.
-		\UCpaso[\UCactor] Da clic en el botón continuar de la pantalla \IUref{IU1}{Bienvenida}.
-		\UCpaso Despliega la pantalla \IUref{IU2}{Login} mostrando las diferentes opciones de registro \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}, \IUbutton{Iniciar Sesión} y \IUbutton{Registrarse}.
-		\UCpaso[\UCactor] Selecciona registrarse mediante correo electrónico, dando clic en la opción \IUbutton{Registrarse}.\Trayref{A}.\Trayref{B}.
-		\UCpaso Despliega la pantalla \IUref{IU4}{Registro por Correo} mostrando los campos que el usuario debe ingresar.
-		\UCpaso[\UCactor] Introduce y selecciona la información solicitada en pantalla, posteriormente da clic en el botón \IUbutton{Registrarse}.\label{CU1-Registrar}.
-		\UCpaso Valida que el correo electrónico no se haya registrado anteriormente y no sea nulo.\Trayref{C}.
-		\UCpaso Valida que la contraseña cumpla con la longitud de 8 a 10 caracteres y que esta cuente con números y letras.\Trayref{D}.	
-		\UCpaso Valida que el nombre de usuario cumpla con la longitud de 2 a 30 caracteres y unicamente se ingresen letras.\Trayref{E}.
-		\UCpaso Valida que se haya seleccionado la opción de aceptar términos y condiciones.\Trayref{F}.
-		\UCpaso Registra al usuario en el sistema con una cuenta única.
-		\UCpaso Ingresa al sistema con la cuenta asociada.
-		\UCpaso Termina el caso de uso.
+		
+		\UCpaso [\UCactor] Continua tocando el  botón \IUbutton{Continuar} de la pantalla \IUref{IU1}{Bienvenida}.
+		
+		\UCpaso Muestra la pantalla \IUref{RE-IU1a}{Registrar Usuario} mostrando las diferentes opciones de registro \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}, \IUbutton{Iniciar Sesión} y \IUbutton{Registrarse}.
+		
+		\UCpaso [\UCactor] Selecciona registrarse mediante correo electrónico, tocando la opción \IUbutton{Registrarse}. \refTray{A} \refTray{B}.
+		
+		\UCpaso Muestra la pantalla \IUref{RE-IU1d}{Registrar Usuario por Correo} mostrando los campos que el usuario debe ingresar.
+		
+		\UCpaso [\UCactor] \label{RE-CU1:IntroduceInformacion}. Introduce y selecciona la información solicitada en pantalla.
+		
+		\UCpaso [\UCactor] Solicita finalizar el registro tocando el botón \IUbutton{Registrarse}.
+		
+		\UCpaso Verifica que el correo electrónico ingresado no se haya registrado anteriormente y no sea nulo.\refErr{Uno} \refErr{Dos} \refTray{C}
+		
+		\UCpaso Verifica que la contraseña cumpla con la longitud de 8 a 10 caracteres y que esta cuente con números y letras, con base en la regla \cdtIdRef{BR-001}{Longitud válida para contraseñas}. \refErr{Tres} \refTray{D}.
+			
+		\UCpaso Verifica que el nombre de usuario cumpla con la longitud de 2 a 30 caracteres y unicamente se ingresen letras, con base en la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario}. \refErr{Cuatro} \refTray{E}.
+		
+		\UCpaso Verifica que se haya seleccionado la opción de aceptar términos y condiciones. \refErr{Cinco} \refTray{F}.
+		
+		\UCpaso Registra al usuario en el sistema con una cuenta única. 
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación exitosa} indicando que el registro fue exitoso.
+		
+		\UCpaso \label{RE-CU1:Pantalla}Muestra la pantalla \IUref{LR-IU2}{Zonas Turísticas}.
 		
 	\end{UCtrayectoria}
 
 %--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{El usuario selecciona iniciar sesión mediante correo electrónico, dando clic en la opción \IUbutton{Iniciar sesión}}
+	\begin{UCtrayectoriaA}{A}{El turista requiere iniciar sesión mediante correo electrónico, tocando la opción \IUbutton{Iniciar sesión}}
 			
-			\UCpaso Despliega la pantalla \IUref{IU5}{Iniciar Sesión} mostrando los campos que el usuario debe ingresar.
+		\UCpaso Despliega la pantalla \IUref{IU5}{Iniciar Sesión} mostrando los campos que el usuario debe ingresar.
 			
-			\UCpaso[\UCactor] Introduce y selecciona la información solicitada en pantalla, posteriormente da clic en el botón \IUbutton{Ingresar}.\label{CU1-iniciar}.
+		\UCpaso [\UCactor] \label{RE-CU1:iniciarSesion}. Introduce y selecciona la información solicitada en pantalla.
+		
+		\UCpaso [\UCactor] Solicita iniciar sesión tocando el botón \IUbutton{Ingresar}. 
 			
-			\UCpaso Valida que el correo electrónico se encuentre registrado y no sea nulo.\Trayref{A1}.
+		\UCpaso Verifica que el correo electrónico se encuentre registrado y no sea nulo. \refErr{Siete} 
 
-			\UCpaso Valida que la contraseña coincida con la asociada al correo electrónico previamente ingresado, y que respete la longitud de 8 a 10 caracteres.\Trayref{A2}.
+		\UCpaso Verifica que la contraseña coincida con la asociada al correo electrónico ingresado. \refErr{Siete}
 			
-			\UCpaso Ingresa al sistema con la cuenta asociada.
+		\UCpaso Ingresa al sistema con la cuenta asociada.
 			
-			\UCpaso Termina el caso de uso.
+		\UCpaso Continua en el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.
 			
-		\end{UCtrayectoriaA}
-	
-		\begin{UCtrayectoriaA}{A1}{El correo electrónico no se encuentra registrado o es nulo.}
-		
-		\UCpaso Muestra el mensaje arriba del campo correo electrónico{\bf MSG1 -}``Correo  inválido''.
-		
-		\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-		
-	\end{UCtrayectoriaA}
-
-		\begin{UCtrayectoriaA}{A2}{La contraseña no coincide con la asociada a la cuenta o no corresponde a la longitud del campo.}
-		
-		\UCpaso Muestra el mensaje arriba del campo Contraseña {\bf MSG1 -}``Contraseña inválida''.
-		
-		\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-		
 	\end{UCtrayectoriaA}
 		
 %--------------------------------------
-		\begin{UCtrayectoriaA}{B}{El usuario selecciona iniciar sesión mediante Facebook o una cuenta de Google, dando clic en la opción \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}}
-			
-			\UCpaso Verifica la cuenta de facebook o google asociada en el sistema del teléfono.\Trayref{B1}.
-				
-			\UCpaso Despliega la pantalla emergente \IUref{IU6}{Iniciar con FB,G} mostrando la cuenta asociada al teléfono inteligente ya sea de Facebook o Google respectivamente.
-			
-			\UCpaso[\UCactor] Acepta ingresar con la cuenta mostrada dando clic en el botón  \IUbutton{Aceptar}.
-			\UCpaso Ingresa al sistema con la cuenta asociada.
+	\begin{UCtrayectoriaA}{B}{El turista selecciona iniciar sesión mediante Facebook o una cuenta de Google, tocando la opción \IUbutton{Entrar con FB} o \IUbutton{Entrar con Google}}
 		
-			\UCpaso Termina el caso de uso.
+		\UCpaso Verifica la cuenta de Facebook o Google asociada en el sistema del teléfono. \refTray{C}.
+				
+		\UCpaso \label{RE-CU1:FB} Despliega la pantalla \IUref{RE-IU1b}{Registrar Usuario por Facebook/Google} mostrando la cuenta asociada al teléfono inteligente ya sea de Facebook o Google respectivamente.
 			
-		\end{UCtrayectoriaA}
+		\UCpaso [\UCactor] Acepta ingresar con la cuenta mostrada tocando el botón  \IUbutton{Aceptar}.
+		
+		\UCpaso Ingresa al sistema con la cuenta asociada. \refErr{Seis}
+		
+		\UCpaso Continua en el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.
+		
+	\end{UCtrayectoriaA}
 	
-		\begin{UCtrayectoriaA}{B1}{El usuario no mantiene una cuenta de Facebook o Google abierta en el sistema del teléfono.}
+	\begin{UCtrayectoriaA}{C}{El turista no mantiene una cuenta de Facebook o Google abierta en el sistema del teléfono.}
 		
 		\UCpaso Redirige a la aplicación correspondiente, ya sea Facebook o Google para su registro.
 		
-		\UCpaso Termina el caso de uso.
+		\UCpaso [\UCactor] Realiza las acciones pertinentes para poder iniciar sesión.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1:FB} de la trayectoria alterna \textbf{B}
 		
 	\end{UCtrayectoriaA}
 
 %--------------------------------------
-		\begin{UCtrayectoriaA}{C}{El correo electrónico ya esta registrado o es nulo.}
-			
-			\UCpaso Muestra el mensaje arriba del campo correo electrónico{\bf MSG1 -}``Correo Electrónico inválido''.
-			
-			\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-			
-		\end{UCtrayectoriaA}
 
-%--------------------------------------
-		\begin{UCtrayectoriaA}{D}{La contraseña no coincide con la longitud o el tipo de dato.}
-			
-			\UCpaso Muestra el mensaje arriba del campo Contraseña {\bf MSG1 -}``Contraseña inválida''.
-				
-			\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-		
-	\end{UCtrayectoriaA}
-
-	\begin{UCtrayectoriaA}{E}{El nombre no cumple con la longitud o no corresponde el tipo de dato.}
-	
-		\UCpaso Muestra el mensaje arriba del campo Nombre de Usuario {\bf MSG1 -}``Nombre inválido''.
-	
-		\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-	
-\end{UCtrayectoriaA}
-
-	\begin{UCtrayectoriaA}{F}{No se aceptaron los términos y condiciones.}
-	
-		\UCpaso Muestra el mensaje arriba del campo Términos y Condiciones {\bf MSG1 -}``Requerido''.
-	
-	\UCpaso Continúa en el paso \ref{CU1-Registrar} del \UCref{CU1}.
-	
-	\end{UCtrayectoriaA}
-
-%--------------------------------------
-
-		
-		
+\subsection{Puntos de extensión}
+\UCExtenssionPoint{Cuando el turista requiere editar su perfil}{En el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.}{\cdtIdRef{RE-CU1.1}{Editar Perfil}}

@@ -10,41 +10,55 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{CU2}{Cargar Zonas Turísticas}{
-		Este caso de uso permite al usuario visualizar el listado las zonas turísticas que se encuentran registradas en la aplicación ademas de validar mediante GPS si en el momento de la visualización el usuario se encuentra dentro de una de las áreas. 
+	\begin{UseCase}{LR-CU2}{Obtener Zonas Turísticas}{
+		
+		Permite obtener y visualizar una lista con las zonas turísticas que han sido visitadas por el turista, así mismo se puede obtener una zona turística actual si es que el turista se encuentra en alguna zona turística registrada, para ello es necesario que se tenga habilitada la geolocalización del smartphone del turista. 	
 	}
 		\UCitem{Versión}{\color{Gray}1.0}
-		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
 		\UCitem{Propósito}{Visualizar el listado de las zonas turísticas.}
-		\UCitem{Entradas}{N.A.}
-		\UCitem{Origen}{Teclado}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Zonas turísticas
+				\UCli Posicionamiento
+			\end{UClist}
+		}
+		\UCitem{Origen}{\ioSistema}
 		\UCitem{Salidas}{Listado de Zonas Turísticas}
-		\UCitem{Precondiciones}{El usurario requiere haber iniciado sesión}
-		\UCitem{Postcondiciones}{N.A.}
-		\UCitem{Errores}{}
+		\UCitem{Precondiciones}{Haber estado en alguna zona turística y tener habilitada la geolocalización}
+		\UCitem{Postcondiciones}{Podrá visualizar las zonas turísticas.}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{Ninguno}
 		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{}
 	\end{UseCase}
 %--------------------------------------
 	\begin{UCtrayectoria} 
-		\UCpaso[\UCactor] Da clic en la notificación o ingresa a la aplicación.
+		\UCpaso [\UCactor] Toca la notificación de área turística o ingresa a la aplicación después de iniciar sesión.
 		
-		\UCpaso Verifica a través del GPS que el usuario se encuentra dentro de un área turística registrada en el sistema \IUref{IU7}{Principal Zonas}.\Trayref{A}.
+		\includeUC{PO-CU2.2}{Obtener Posicionamiento}
 		
-		\UCpaso Obtiene la información del área en la posición actual.
+		\UCpaso Verifica a través del GPS que el usuario se encuentra dentro de un área turística registrada en el sistema. \refTray{A}.
 		
-		\UCpaso Filtra por puntuación las 5 áreas mejor calificadas y obtiene su información.\label{CU2-ZonasTuristicas}.
+		\UCpaso \label{LR-CU2:ZonaActual} Obtiene la zona turística actual en la que se encuentra el turista.
 		
-		\UCpaso Despliega la pantalla \IUref{IU7}{Principal Zonas} con el listado de las zonas turísticas obtenidas.
-
-		\UCpaso[] Termina el caso de uso.
+		\UCpaso \label{LR-CU2:ZonaVisitada} Obtiene las zonas turísticas visitadas por el turista.
+		
+		\UCpaso Establece el catálogo \textbf{Zona Turística Actual} con la información obtenida en el paso \ref{LR-CU2:ZonaActual} de la trayectoria principal.
+		
+		\UCpaso Establece el catálogo \textbf{Zonas Turísticas} con la información obtenida en el paso \ref{LR-CU2:ZonaVisitada} de la trayectoria principal.
+		
+		\UCpaso \label{LR-CU2:Pantalla} Muestra la pantalla \IUref{LR-IU2}{Zonas turísticas} con el listado de las zonas turísticas obtenidas.
 		
 	\end{UCtrayectoria}
 
 %--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{El usuario no se encuentra ubicado en alguna zona turística registrada}
+		\begin{UCtrayectoriaA}{A}{El turista no se encuentra ubicado en alguna zona turística registrada}
 			
-			\UCpaso Continúa en el paso \ref{CU2-ZonasTuristicas} del \UCref{CU2}{Cargar Zonas Turísticas}.
+			\UCpaso \label{LR-CU2:ZonaVisitadaA} Obtiene las zonas turísticas visitadas por el turista.
+			
+			\UCpaso Establece el catálogo \textbf{Zonas Turísticas} con la información obtenida en el paso \ref{LR-CU2:ZonaVisitadaA} de la trayectoria alterna \textbf{A}.
+			
+			\UCpaso Continúa en el paso \ref{LR-CU2:Pantalla} la trayectoria principal.
 			
 		\end{UCtrayectoriaA}
 	

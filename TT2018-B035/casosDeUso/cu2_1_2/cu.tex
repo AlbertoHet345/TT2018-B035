@@ -1,0 +1,49 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{SE-CU2.1.2}{Consultar Información de Servicios Turísticos}{
+		
+		Permite llevar a cabo la consulta de los servicios turísticos que se ofrecen en las distintas zonas turísticas, estos servicios están filtrados por el tipo de servicio turístico previamente seleccionado. 
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
+		\UCitem{Propósito}{Visualizar la información de los servicios turísticos.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Zona turística
+				\UCli Posicionamiento
+				\UCli Tipo de servicio
+				\UCli Nombre de servicio
+				\UCli Imagen de servicio 
+				\UCli Puntuación del servicio
+			\end{UClist}
+		}
+		\UCitem{Origen}{\ioSistema}
+		\UCitem{Salidas}{Lista con los distintos servicios turísticos.}
+		\UCitem{Precondiciones}{Haber seleccionado un tipo de servicio turístico.}
+		\UCitem{Postcondiciones}{Podrá visualizar los distintos servicios turísticos.}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{Ninguno}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{LR-CU2.1}{Visualizar Actividades Turísticas}}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso [\UCactor] Solicita consultar los servicios turísticos que pertenecen a un tipo de servicio, tocando un tipo de servicio en la pantalla \IUref{LR-IU2.1b}{Servicios turísticos}
+.
+		\UCpaso Obtiene el nombre, la imagen y la puntuación de  todos los servicios turísticos asociados al tipo de servicio turístico y a la zona turística previamente seleccionados.
+		
+		\UCpaso \label{SE-CU2.1.2:Pantalla} Muestra la pantalla \IUref{SE-IU2.1.2}{Consultar información de servicios turísticos}.	
+	\end{UCtrayectoria}
+
+	\subsection{Puntos de extensión}
+	
+	\UCExtenssionPoint{El turista requiere consultar la información y estadísticas turísticas.}{En el paso \ref{SE-CU2.1.2:Pantalla} de la trayectoria principal}{\cdtIdRef{SE-CU2.1.2.1}{Consultar Información y Estadísticas Turísticas}.}

@@ -1,0 +1,80 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{SE-CU2.1.2.1}{Consultar Información y Estadísticas Turísticas}{
+		Permite visualizar la información sobre un servicio turístico, así mismo permite consultar los comentarios y las calificaciones que otros turistas le han registrado al servicio. Es importante esta información ya que permite al turista poder conocer un lugar desde la experiencia de otros turistas.	
+	
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
+		\UCitem{Propósito}{Visualizar la información y las estadísticas de los servicios turísticos.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Zona turística
+				\UCli Posicionamiento
+				\UCli Tipo de servicio
+				\UCli Nombre de servicio
+				\UCli Imagen de servicio 
+				\UCli Puntuación del servicio
+				\UCli Comentarios del servicio
+			\end{UClist}
+		}
+		\UCitem{Origen}{\ioSistema}
+		\UCitem{Salidas}{Información detallada, comentarios y calificaciones del servicio turístico.}
+		\UCitem{Precondiciones}{Haber seleccionado un servicio turístico.}
+		\UCitem{Postcondiciones}{Podrá toda la información, comentarios y calificación del servicio turístico.}
+		\UCitem{Reglas de negocio}{\cdtIdRef{BR-003}{Tiempo transcurrido para registrar comentario}}
+		\UCitem{Errores}{
+			\begin{UClist}
+				\UCli \UCerr{Uno}{Cuando no se puede cargar el mapa de manera correcta,}{muestra el mensaje \cdtIdRef{MSG}{No se puede mostrar el mapa} y continua en el paso \ref{SE-CU2.1.2.1:Pantalla} de la trayectoria principal.}
+				\UCli \UCerr{Dos}{Cuando no ha transcurrido el tiempo requerido para registrar comentario,}{muestra el mensaje \cdtIdRef{MSG}{No se puede registrar comentario aún} y regresa al paso \ref{SE-CU2.1.2.1:Pantalla} de la trayectoria principal.}
+			\end{UClist}	
+		}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{LR-CU2.1.2}{Consultar Información de Servicios Turísticos}.}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria}
+		 
+		\UCpaso [\UCactor] Solicita consultar la información detallada, los comentarios y la calificación de un servicio turístico, seleccionando un servicio turístico en la pantalla \IUref{SE-IU2.1.2}{Consultar información de servicios turísticos}.
+		
+		\UCpaso Obtiene la información del servicio turístico.
+		
+		\UCpaso Obtiene los comentarios y las calificaciones registradas por otros turistas al servicio turístico.
+		
+		\UCpaso \label{SE-CU2.1.2.1:Pantalla} Muestra la pantalla \IUref{SE-IU2.1.2.1a}{Consultar información y estadísticas turísticas} con la información obtenida.
+		
+		\UCpaso [\UCactor] Visualiza la información mostrada en pantalla. \refTray{A} \refTray{B} 
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando el turista requiere consultar el mapa para ver dónde se encuentra el servicio turístico.}
+		
+		\UCpaso [\UCactor] Solicita consultar el mapa para ver en dónde se encuentra el servicio turístico seleccionado, tocando el botón \IUbutton{Mapa} en la pantalla \IUref{SE-IU2.1.2.1a}{Consultar información y estadísticas turísticas}.
+		
+		\UCpaso Obtiene la localización del servicio turístico. \refErr{Uno}
+		
+		\UCpaso Muestra la pantalla \IUref{SE-IU2.1.2.1b}{Mapa} con la localización obtenida.
+		
+	\end{UCtrayectoriaA}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{B}{Cuando el turista requiere registrar un comentario para el servicio turístico.}
+		
+		\UCpaso [\UCactor] Solicita registrar un comentario al servicio turístico tocando el botón \IUbutton{Comentar} en la pantalla \IUref{SE-IU2.1.2.1a}{Consultar información y estadísticas turísticas}.
+		
+		\UCpaso Verifica que haya transcurrido el tiempo requerido para registrar comentario, con base en la regla \cdtIdRef{BR-003}{Tiempo transcurrido para registrar comentario}. \refErr{Dos}
+		
+		\UCpaso \label{SE-CU2.1.2.1:EjecutaCaso}Ejecuta el caso de uso \cdtIdRef{SE-CU2.1.2.1.1}{Registrar Comentario}
+		
+	\end{UCtrayectoriaA}
+
+	\subsection{Puntos de extensión}
+	
+	\UCExtenssionPoint{El turista requiere registrar un comentario al servicio turístico.}{En el paso \ref{SE-CU2.1.2.1:EjecutaCaso} de la trayectoria alterna \textbf{B}}{\cdtIdRef{SE-CU2.1.2.1.1}{Registrar Comentario.}}

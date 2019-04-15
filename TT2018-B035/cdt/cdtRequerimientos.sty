@@ -175,3 +175,46 @@
 }{%
 	\end{description}%
 }
+
+
+%------------------------------------------------------------------------
+% Agregar una lista de datos en la tabla de descripción de Casos de Uso
+% use:
+% \begin{UClist}
+% 		\UCli Bla bla bla
+% 		\UCli[o] Bla bla bla
+% \end{UClist}	
+\newenvironment{UClist}{\vspace{-1em}}{\vspace{0em}}
+
+%------------------------------------------------------------------------
+% use \UCli Bla bla bla
+\newcommand{\UCli}[1][\textbullet]{%
+	\par{ \color{sectionColor}{#1} }%
+}
+
+%=====================================================================
+% Comando: \cdtRef{id}{Nombre}
+% Propósito: Producir un texto que referencía aigun elemento del documento, por ejemplo: Casos de Uso, Reglas de Negocio, Entidad, Actor, Interfaz, Mensaje, etc. Este comando genera como salida el ``nombre'' que referencía al elemento identificado por ``id''
+% Ejemplo: ...la \cdtLabel{coordinacion}{Coordinación} esta en ...
+%          se puede ver en la \cdtRef
+
+%=====================================================================
+\newcommand{\cdtRef}[2]{%
+	\hyperlink{#1}{{#2}}%
+}
+
+%=====================================================================
+% Comando: \cdtIdRef{id}{Nombre}
+% Propósito: Funciona igual que cdtRef, solo que en la salida aparece también el ID referenciado, ideal para Casos de uso, reglas de negocio, mensajes e Interfaces.
+% Ejemplo: mediante la pantalla \cdtIdRef{IU5}{Registrar alumno}
+%=====================================================================
+\newcommand{\cdtIdRef}[2]{%
+	\hyperlink{#1}{{#1}\ {#2}}%
+}
+
+%------------------------------------------------------------------------
+%Comandos para entradas y salidas
+\newcommand{\ioEscribir}{Se escribe desde el teclado}
+\newcommand{\ioGarleria}{Se elije una imagen desde la garleria}
+\newcommand{\ioSistema}{Lo obtiene el sistema}
+\newcommand{\ioSeleccionar}{Lo selecciona el usuario}

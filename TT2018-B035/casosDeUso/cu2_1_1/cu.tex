@@ -1,0 +1,66 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{LR-CU2.1.1}{Generar Ruta Turística}{
+		
+		Permite llevar a cabo la generación de una ruta turística a partir de la ubicación actual del turista, para ello el turista debe encontrarse, mediante geolocaclización, dentro una zona turística para poder ser generada; de lo contrario no se podrá generar una ruta.\\
+		
+		Para poder generar la ruta, además de encontrarse dentro de la zona turística, el turista deberá seleccionar los parámetros que requiera para la generación de ruta, estos parámetros son: tipo de ruta, cantidad de servicios y ordenar por puntuación.\\
+		
+		Las rutas turísticas podrán variar dependiendo los parámetros seleccionados por el turista o por la zona en la que se encuentra.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
+		\UCitem{Propósito}{Generar una ruta turística para el turista.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Zona turística
+				\UCli Posicionamiento
+				\UCli Tipo de ruta turística
+				\UCli Cantidad de servicios
+				\UCli Ordenamiento
+			\end{UClist}
+		}
+		\UCitem{Origen}{
+			\begin{UClist}
+				\UCli \ioSistema
+				\UCli \ioSeleccionar
+			\end{UClist}
+		}
+		\UCitem{Salidas}{Mapa con la ruta turística}
+		\UCitem{Precondiciones}{Encontrarse dentro de una zona turística.}
+		\UCitem{Postcondiciones}{Podrá visualizar la ruta turística.}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{\UCerr{Uno}{Cuando el turista no se encuentra en una zona turística registrada,}{muestra el mensaje \cdtIdRef{MSG}{No se puede generar ruta} y regresa al paso \ref{LR-CU2.1:Pantalla1} de la trayectoria principal.}}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{LR-CU2.1}{Visualizar Actividades Turísticas}}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso [\UCactor] Solicita generar una ruta turística a partir de su ubicación actual seleccionando la opción \textbf{Generar ruta a partir de la ubicación actual} en la pantalla \IUref{LR-IU2.1a}{Zona turística}.
+		
+		\UCpaso Verifica que el turista se encuentre actualmente en una zona turística registrada. \refErr{Uno}
+		
+		\UCpaso Muestra la pantalla \IUref{LR-IU2.1.1a}{Seleccionar Parámetros} 
+		
+		\UCpaso [\UCactor] Ingresa los parámetros para la generación de la ruta.
+		
+		\UCpaso [\UCactor] Solicita continuar con la operación tocando el botón \IUbutton{Aceptar}
+		
+		\UCpaso Genera la ruta con base en los parámetros ingresados.
+		
+		\UCpaso Muestra la pantalla \IUref{LR-IU2.1.1b}{Ruta Turística} con la ruta turística trazada en el mapa.
+		
+	\end{UCtrayectoria}
+
+
+	
+	

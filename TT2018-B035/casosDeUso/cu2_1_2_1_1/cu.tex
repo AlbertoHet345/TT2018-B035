@@ -1,0 +1,64 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{SE-CU2.1.2.1.1}{Registrar Comentario}{
+		Permite hacer el registro de un comentario para un servicio turístico, así mismo se podrá registrar una calificación. Para hacer el registro de un comentario se debe de cumplir la regla \cdtIdRef{BR-003}{Tiempo transcurrido para registrar comentario}, ademas de encontrarse dentro de la zona turística a la que pertenece el servicio turístico.
+	
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
+		\UCitem{Propósito}{Registrar un comentario y una calificación a un servicio turístico.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Zona turística
+				\UCli Posicionamiento
+				\UCli Tipo de servicio
+				\UCli Nombre de servicio
+				\UCli Puntuación del servicio
+				\UCli Comentarios del servicio
+			\end{UClist}
+		}
+		\UCitem{Origen}{
+			\begin{UClist}
+				\UCli \ioSistema
+				\UCli \ioEscribir
+			\end{UClist}
+		}
+		\UCitem{Salidas}{\cdtIdRef{MSG1}{Operación exitosa}}
+		\UCitem{Precondiciones}{Haber cumplido con el tiempo transcurrido para registro de comentario.}
+		\UCitem{Postcondiciones}{Se registrará el comentario y la calificación para el servicio turístico.}
+		\UCitem{Reglas de negocio}{\cdtIdRef{BR-003}{Tiempo transcurrido para registrar comentario}}
+		\UCitem{Errores}{
+			\begin{UClist}
+				\UCli \UCerr{Uno}{Cuando no ha transcurrido el tiempo requerido para registrar comentario,}{muestra el mensaje \cdtIdRef{MSG}{No se puede registrar comentario aún} y regresa al paso \ref{SE-CU2.1.2.1:Pantalla} de la trayectoria principal.}
+				\UCli \UCerr{Dos}{Cuando no se puede llevar a cabo la operación de manera exitosa,}{muestra el mensaje \cdtIdRef{MSG2}{Operación fallida} y termina el caso de uso.}
+			\end{UClist}	
+		}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{LR-CU2.1.2.1}{Consultar Información y Estadísticas Turísticas}.}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria}
+		 
+		\UCpaso [\UCactor] Solicita registrar un comentario al servicio turístico tocando el botón \IUbutton{Comentar} en la pantalla \IUref{SE-IU2.1.2.1a}{Consultar información y estadísticas turísticas}.
+		
+		\UCpaso Verifica que haya transcurrido el tiempo requerido para registrar comentario, con base en la regla \cdtIdRef{BR-003}{Tiempo transcurrido para registrar comentario}. \refErr{Uno}
+		
+		\UCpaso Muestra la pantalla \IUref{SE-IU2.1.2.1.1}{Registrar comentario} con el formulario para registrar el comentario.
+		
+		\UCpaso [\UCactor] Ingresa los datos solicitados.
+		
+		\UCpaso [\UCactor] Solicita finalizar la operación tocando el botón \IUbutton{Enviar}.
+		
+		\UCpaso Asocia el comentario y la calificación registrada. \refErr{Dos}
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación exitosa}
+	\end{UCtrayectoria}

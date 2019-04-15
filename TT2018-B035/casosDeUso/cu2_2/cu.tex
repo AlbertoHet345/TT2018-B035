@@ -1,0 +1,49 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{PO-CU2.2}{Obtener Posicionamiento}{
+		Permite llevar a cabo, mediante la geolocalización, obtener el posicionamiento del turista. Es importante conocer su posicionamiento ya que esto permitirá determinar si se encuentra en la zona turística actual. Así mismo, el posicionamiento permitirá la generación de rutas turísticas y el poder registrar comentarios de los servicios turísticos.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
+		\UCitem{Propósito}{Obtener el posicionamiento del turista.}
+		\UCitem{Entradas}{Posicionamiento}
+		\UCitem{Origen}{\ioSistema}
+		\UCitem{Salidas}{Posicionamiento}
+		\UCitem{Precondiciones}{Tener habilitada la geolocalización en el smartphone del turista.}
+		\UCitem{Postcondiciones}{Se obtendrá el posicionamiento del turista.}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{ \UCerr{Uno}{Cuando no se puede obtener el posicionamiento del turista,}{muestra el mensaje \cdtIdRef{MSG}{No se puede obtener posicionamiento} y termina el caso de uso}}
+		\UCitem{Tipo}{Incluye de \cdtIdRef{LR-CU2}{Obtener Zonas Turísticas}.}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria}
+		 
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG}{Obtener posicionamiento}.
+		
+		\UCpaso [\UCactor] Confirma la operación tocando el botón \IUbutton{Sí} en el mensaje. \refTray{A}
+		
+		\UCpaso Se conecta con el GPS del smatphone.
+		
+		\UCpaso Obtiene el posicionamiento del turista.
+		
+		\UCpaso Regresa a la pantalla \IUref{LR-IU2}{Zonas turísticas} con la información obtenida. 
+		
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando el turista no confirma la operación.}
+		
+		\UCpaso [\UCactor] Solicita cancelar la operación tocando el botón \IUbutton{No} en el mensaje.
+		
+		\UCpaso Regresa a la pantalla \IUref{LR-IU2}{Zonas turísticas} sin información
+		
+	\end{UCtrayectoriaA}

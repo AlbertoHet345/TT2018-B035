@@ -1,0 +1,98 @@
+	\begin{UseCase}{RE-CU1.1}{Editar Perfil}{
+		Permite llevar a cabo las operaciones necesarias para modificar el perfil del turista. Para poder editar la información del perfil tal como el nombre de usuario y la foto de perfil, de considerarse que sólo podrán hacerlo aquellos turistas que se registraron mediante correo electrónico, es decir, aquellos que se registraron mediante Facebook o Google no podrán editar su nombre de usuario ni foto de perfil mediante la aplicación. Sin embargo todo los turistas podrán eliminar el historial de lugares turísticos cuando ellos lo requieran.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\hyperlink{actor:turista}{Turista}}
+		\UCitem{Propósito}{Que el turista pueda modificar su perfil.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Nombre de usuario
+				\UCli Foto de perfil
+				\UCli Zona turística
+			\end{UClist}
+		}
+		\UCitem{Origen}{
+			\begin{UClist}
+				\UCli \ioEscribir
+				\UCli \ioGarleria
+				\UCli \ioSistema
+			\end{UClist}
+		}
+		\UCitem{Salidas}{\cdtIdRef{MSG1}{Operación exitosa}}
+		\UCitem{Precondiciones}{El turista debe estar registrado en la aplicación}
+		\UCitem{Postcondiciones}{El perfil del turista quedará modificado}
+		\UCitem{Reglas de negocio}{\cdtIdRef{BR-002}{Longitud válida para nombre de usuario}}
+		\UCitem{Errores}{
+			\begin{UClist}
+				\UCli \UCerr{Uno}{Cuando el nombre de usuario ingresado no cumple la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario},}{muestra el mensaje \cdtIdRef{MSG}{Formato de nombre de usuario inválido} y continua \ref{RE-CU1.1:IngresaDatos} de la trayectoria principal.}
+				\UCli \UCerr{Dos}{Cuando no se puede llevar a cabo la operación de manera exitosa,}{muestra el mensaje \cdtIdRef{MSG2}{Operación fallida} y termina el caso de uso.}
+			\end{UClist}
+		}
+		\UCitem{Tipo}{Extiende de: \cdtIdRef{RE-CU1}{Registrar Usuario}.}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria}
+		\UCpaso [\UCactor] Solicita editar su perfil tocando la opción \IUbutton{Ajustes} del \IUref{MN}{Menú lateral}.
+		
+		\UCpaso Verifica que el tipo de cuenta del turista sea \textbf{por correo}. \refTray{A}
+		
+		\UCpaso Habilita todas las opciones de edición de perfil.
+		
+		\UCpaso Muestra la pantalla \IUref{RE-IU1.1a}{Ajustes}.
+		
+		\UCpaso [\UCactor] Selecciona la opción \IUbutton{Nombre y Foto}. \refTray{B}
+		
+		\UCpaso Obtiene el nombre de usuario.
+		
+		\UCpaso Obtiene la foto de perfil en caso de existir.
+		
+		\UCpaso Muestra la pantalla \IUref{RE-IU1.1b}{Nombre y Foto} solicitando los nuevos datos para el perfil del turista.
+		
+		\UCpaso [\UCactor] \label{RE-CU1.1:IngresaDatos} Ingresa y selecciona los datos seleccionados.
+		
+		\UCpaso [\UCactor] Solicita finalizar la edición de su perfil tocando el botón \IUbutton{Aceptar}. 
+		
+		\UCpaso Verifica que el nombre de usuario cumpla la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario}. \refErr{Uno}
+		
+		\UCpaso Establece el nuevo nombre de usuario y la nueva foto en el perfil del turista.
+		
+		\UCpaso Persiste los cambios realizados. \refErr{Dos}
+		
+		\UCpaso \label{RE-CU1.1:Pantalla} Regresa a la pantalla \IUref{RE-IU1.1a}{Ajustes}. 
+	\end{UCtrayectoria}
+
+%--------------------------------------		
+	\begin{UCtrayectoriaA}{A}{Cuando el tipo de perfil del turista es Facebook o Google}
+			
+		\UCpaso Inhabilita la opción \textbf{Nombre y Foto}.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1.1:Eliminar} de la trayectoria alterna \textbf{B}
+			
+	\end{UCtrayectoriaA}
+		
+%--------------------------------------
+	\begin{UCtrayectoriaA}{B}{Cuando el turista requiere eliminar el historial de zonas turísticas.}
+		
+		\UCpaso [\UCactor] \label{RE-CU1.1:Eliminar} Solicita eliminar el historial de zonas turísticas tocando el botón \IUbutton{Eliminar historial} en la pantalla \IUref{RE-IU1.1a}{Ajustes}.
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG}{Confirmación de eliminar historial}.
+		
+		\UCpaso [\UCactor] Confirma la operación tocando el botón \IUbutton{Sí} en el mensaje. \refTray{C}
+		
+		\UCpaso Obtiene las zonas turísticas visitadas por el turista.
+		
+		\UCpaso Elimina la asociación del turista con las zonas turísticas visitadas. \refErr{Dos}
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación exitosa}.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1.1:Pantalla} de la trayectoria principal.
+		
+	\end{UCtrayectoriaA}
+	
+	\begin{UCtrayectoriaA}{C}{Cuando el turista requiere cancelar la operación.}
+		
+		\UCpaso [\UCactor] Solicita cancelar la operación tocando el botón \IUbutton{No}.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1.1:Eliminar} de la trayectoria principal.
+		
+	\end{UCtrayectoriaA}
