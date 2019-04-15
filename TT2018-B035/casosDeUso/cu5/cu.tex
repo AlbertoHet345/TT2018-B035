@@ -1,0 +1,53 @@
+% !TeX spellcheck = <none>
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+	\begin{UseCase}{CU5}{Especificación de Servicio}{
+		Este caso de uso permite al usuario visualizar las especificaciones completas del servicio turístico seleccionado como lo es: la descripción, puntuación, imagenes y comentarios de otros usuarios. Así mismo es un punto de acceso para escribir un comentario sobre el servicio o bien marcar en el mapa la ubicación exacta del lugar.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
+		\UCitem{Propósito}{Visualizar a detalle la información sobre un servicio turístico en específico.}
+		\UCitem{Entradas}{N.A.}
+		\UCitem{Origen}{N.A.}
+		\UCitem{Salidas}{Información de un servicio turístico.}
+		\UCitem{Precondiciones}{N.A.}
+		\UCitem{Postcondiciones}{N.A.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso Cuaternario}
+		\UCitem{Observaciones}{}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		
+		\UCpaso[\UCactor] Selecciona dando clic en el área habilitada de un servicio turístico en la pantalla \IUref{IU8}{Principal}.
+		
+		\UCpaso Obtiene la descripción, puntuación y los comentarios del servicio seleccionado.
+		
+		\UCpaso Verifica que el usuario tenga permitido comentar mediante la regla de negocio XXXXXXXXXX. \Trayref{A}.
+		
+		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los datos asociados al servicio, así como habilitados los botones \IUbutton{Ver Mapa} y \IUbutton{Comentar}.
+		
+		\UCpaso[] Termina el caso de uso.
+		
+	\end{UCtrayectoria}
+
+%--------------------------------------		
+		\begin{UCtrayectoriaA}{A}{El usuario no tiene permitido realizar un comentario.}
+			
+		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los datos asociados al servicio y únicamente habilitado el botón \IUbutton{Ver Mapa}.
+		
+		\UCpaso[] Termina el caso de uso.
+		
+	\end{UCtrayectoriaA}
+	
+	
