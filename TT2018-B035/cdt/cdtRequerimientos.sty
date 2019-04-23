@@ -52,27 +52,27 @@
 %          }{M}
 \newcommand{\problema}[4]{ {#1} & {#2} & {#3} & {#4} \\ \hline}
 
-%-----------------------------------------------------
-% Documentación de mensajes
-% Usar:
-% \begin{mensajes}[color]
-%    \mensaje{id}{Nombre}{Descripción}
-%    ...
-% \end{mensajes}
-\newcommand{\mensaje}[3]{ {#1} & {#2} & {#3} \\ \hline}
-
-\newenvironment{mensajes}[1][tblProbColor]
-{%
-	\arrayrulecolor{#1}%
-	\par\begin{longtable}{| p{.2\textwidth} | p{.2\textwidth} | p{.6\textwidth} |}%
-		\arrayrulecolor{white}%
-		\rowcolor{#1}%
-		\mensaje{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripción}\endhead%
-		\arrayrulecolor{#1}%
-}{%
-	\end{longtable} %
-	\arrayrulecolor{black} %
-}
+%%-----------------------------------------------------
+%% Documentación de mensajes
+%% Usar:
+%% \begin{mensajes}[color]
+%%    \mensaje{id}{Nombre}{Descripción}
+%%    ...
+%% \end{mensajes}
+%\newcommand{\mensaje}[3]{ {#1} & {#2} & {#3} \\ \hline}
+%
+%\newenvironment{mensajes}[1][tblProbColor]
+%{%
+%	\arrayrulecolor{#1}%
+%	\par\begin{longtable}{| p{.2\textwidth} | p{.2\textwidth} | p{.6\textwidth} |}%
+%		\arrayrulecolor{white}%
+%		\rowcolor{#1}%
+%		\mensaje{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripción}\endhead%
+%		\arrayrulecolor{#1}%
+%}{%
+%	\end{longtable} %
+%	\arrayrulecolor{black} %
+%}
 
 %-----------------------------------------------------
 % Documentación de requerimientos

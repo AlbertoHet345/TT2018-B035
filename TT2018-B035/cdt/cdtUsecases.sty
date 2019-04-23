@@ -300,15 +300,15 @@
 %    \BRitem[Campo:] Información del campo.
 %    ...
 % \end{BusinessRule}
-\newenvironment{BussinesRule}[2]%
-{%
-	\hypertarget{#1}{}%
-	\noindent{\large{\bf Regla de Negocio:} #1~#2}%
-	\begin{description}\addtolength{\itemsep}{-0.5\baselineskip}%
-}{%
-	\end{description}%
-}
-\newcommand{\BRitem}[1][]{\item[#1]}
+%\newenvironment{BussinesRule}[2]%
+%{%
+%	\hypertarget{#1}{}%
+%	\noindent{\large{\bf Regla de Negocio:} #1~#2}%
+%	\begin{description}\addtolength{\itemsep}{-0.5\baselineskip}%
+%}{%
+%	\end{description}%
+%}
+%\newcommand{\BRitem}[1][]{\item[#1]}
 
  
 %-----------------------------------------------------
@@ -366,3 +366,78 @@ Comentarios:\bigskip\\%
 % Referencia a un caso de uso incluido
 % use: \includeUC{Id}
 \newcommand{\includeUC}[2]{\UCpaso[] {\bf Incluye:} \cdtIdRef{#1}{#2}}
+
+%%==========================================================================
+% Para definir un mensaje.
+% Use:
+%
+%\begin{mensaje}{MSGX}{Nombre del mensaje}{Operación/Notificación/Alerta/Error}
+%	\item[Redacción:] Redacción del mensaje.
+%	\item[Parámetros:] El mesaje se instancía con base en los siguientes parámetros:
+%		\begin{Citemize}
+% 			\item Nombre del parametro: Descripción del Parametro.
+%		\end{Citemize}
+%	\item[Ejemplo:] Uno o varios ejemplo del mensaje.
+%\end{mensaje}
+%==========================================================================
+\newenvironment{mensaje}[3]{%
+	\hypertarget{#1}{{\hspace{1pt}}}%
+	\subsubsection{{#1} {#2}} %ID y nombre del mensaje
+	\vspace{-7mm}%
+	\noindent{\includegraphics[width=\textwidth]{theme/uc/MsgRule}}%
+	\vspace{-7mm}%
+	\begin{description}\addtolength{\itemsep}{-0.5\baselineskip}%%
+		\item[Tipo:] {#3} %Operación Realizada/Notificación/Alerta/Error
+	}{%
+	\end{description}%
+}
+
+%----------------------------------------------------------------------
+%\begin{BussinesRule}{BR7}{Edad actual}
+%	{Cálculo}
+%	{Controla.}
+%	\BRccitem{Versión}{0.1}
+%	\BRccitem{Autor}{Jessica Ramos.}
+%	\BRccitem{Evaluador}{Ulises Vélez Saldaña.}
+%	\BRccitem{Estado}{Terminada: 20 de Junio, 2012, Aprobada: 23 de Junio del 2012.}
+%	\BRitem{Descripción}{La ``Edad actual'' de una personal se presenta como números de años y meses, contando los años y meses completos transcurridos desde la Fecha de Nacimeinto de la persona hasta la Fecha Actual.}
+%	\BRitem{Sentencia}{$\forall p \in Persona \Rightarrow p.edadActual = fechaActual - p.fechaDeNacimiento$}
+%	\BRitem{Ejemplo}{Para la persona: Juan Pérez García, nacida en el Distrito Federal el 12 de Mayo del 2001 la ``Edad Actual'' al 15 de Abril del 2012 sería: {\bf 10 años y 11 meses}.}
+%	\BRitem{Referenciado por}{\refUC{CUCE3.1}, \refUC{CUCE3.2}, \refUC{CUCE3.4}, \refUC{CUCE5.1}, \refBR{BR9}{Edad al 31 de Diciembre}, \refUC{CUCE5}}
+%\end{BussinesRule}
+%
+%\begin{BussinesRule}{BR8}{Fecha de Nacimiento correcta}
+%	{Restricción de operación}
+%	{Obligatorio}
+%	\BRccitem{Versión}{0.1}
+%	\BRccitem{Estado}{Aprobada, 29 de Junio del 2012}
+%	\BRitem{Descripción}{
+%	Las Fechas de Nacimiento que se registrarn en el SINACEM para cualquier Persona debe ser mayores al día Primero de Enero del año 1900 y menor a la Fecha Actual.}
+%	\BRitem{Sentencia}{$\forall p \in Persona \Rightarrow 01-Enero-1900~<~p.fechaDeNacimiento~<~fechaActual$}
+%	\BRitem{Referenciado por}{\refUC{CUCE3.2}, \refUC{CUCE3.3}, \refUC{CUCE3.4}, \refUC{CUCE5.1}}
+%\end{BussinesRule}
+\newenvironment{BusinessRule}[4]
+{%
+	\hypertarget{#1}{}%
+	\subsubsection{#1 #2}
+	\vspace{-6mm}%
+	\noindent{\includegraphics[width=\textwidth]{theme/uc/BRRule}}
+	\vspace{-6mm}%
+	\begin{description}\addtolength{\itemsep}{-0.5\baselineskip}%
+		%\BRitem{Id}{#1}%
+		%\BRitem{Regla}{{#1} {#2}}%
+		%\BRitem{Regla}{{#2}}%
+		\BRitem{Tipo}{#3}%
+		\BRitem{Nivel}{#4}%
+	}%
+	{%
+	\end{description}%
+}
+
+
+%----------------------------------------------------------------------
+% Para colocar un elemento dentro de una regla de negocio.
+% use: \BRitem{Elemento}{Descripción}
+\newcommand{\BRitem}[2]{%
+	\item[{#1}:]  {#2}%
+}
