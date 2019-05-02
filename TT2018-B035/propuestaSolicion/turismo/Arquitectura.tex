@@ -1,5 +1,5 @@
 \section{Arquitectura de Solución}
-Se desarrollará una aplicación la cual contará con módulos móvil y módulos web que, la cual tendrá una arquitectura como se muestra en la Figura \ref{fig:arquitecturaPropuesta}, dicha aplicación ayudará al sector turístico ya que proporcionará información sobre rutas turísticas y áreas de interés de una localidad en particular.
+Se desarrollará una aplicación que contará con módulos móvil y web, la cual tendrá una arquitectura mostrada en la Figura \ref{fig:arquitecturaPropuesta}, dicha aplicación ayudará al sector turístico ya que proporcionará información sobre rutas turísticas y áreas de interés de una localidad en particular.
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -29,13 +29,13 @@ A continuación se listarán los módulos contemplados para el sistema y una bre
 \begin{description}
 	\item[Registro] Este módulo será mediante el cual los nuevos clientes de la aplicación se registrarán en ella para poder hacer uso de esta. 
 	
-	\item[Localización de rutas] Este módulo será el encargado de generar las rutas turísticas para los clientes de la aplicación, para ello depende del trazado de área de interés y del posicionamiento del cliente.
+	\item[Localización de rutas] Este módulo será el encargado de generar las rutas turísticas para los clientes de la aplicación, para ello depende del trazado de área de interés el posicionamiento del cliente y los sitios de interés mas relevantes.
 	
 	\item [Posicionamiento] Este módulo se encargará de proporcionar la información de la posición en la que se encuentra el cliente, al módulo de \textbf{Localización de rutas}, cabe mencionar que para poder proporcionar el posicionamiento del cliente, este deberá encontrarse dentro del área de interés previamente trazada.
 	
 	\item [Interacción de la información] Dentro de este módulo se tratará la información proporcionada por el módulo \textbf{Localización de rutas}, \textbf{Registro de área turística} y \textbf{Servicios}, esta información servirá para trazar nuevas rutas turísticas en el módulo \textbf{Localización de rutas}, para identificar nuevos servicios turísticos o remover los que ya no se utilicen en el módulo \textbf{Servicios}, y por último proporcionará toda la información recabada al módulo \textbf{Información y representación de estadísticas turísticas}.
 	
-	\item [Servicios] Este módulo se encargará de identificar los servicios turísticos de la información proporcionada por el módulo \textbf{Interacción de la información}, y de igual manera se encargará de proporcionar información sobre estos servicios a los módulos: \textbf{Interacción de la información} e \textbf{Información y representación de estadísticas turísticas}.
+	\item [Servicios] Este módulo se encargará de identificar los servicios turísticos con la información proporcionada por el módulo \textbf{Interacción de la información}, y de igual manera se encargará de proporcionar información sobre estos servicios a los módulos: \textbf{Interacción de la información} e \textbf{Información y representación de estadísticas turísticas}.
 	
 	\item [Información y representación de estadísticas turísticas] En este módulo se recopilará la información de los módulos: \textbf{Interacción de la información} y \textbf{Servicios}; y se generarán estadísticas con base en esta información para proporcionarla de nuevo a los módulos anteriormente mencionados, y de esta manera generar las rutas turísticas.
 	
