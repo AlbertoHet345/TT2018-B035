@@ -1,0 +1,86 @@
+	\begin{UseCase}{RA-CU3.2}{Editar Zona Turística}{
+		
+		Permite llevar a cabo la edición de una zona turística dentro del sistema. Dentro de la edicón de una zona turística se podrá delimitar de nuevo en el mapa un polígono, el cual delimitará dicha zona. 
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:admin}{Administrador}}
+		\UCitem{Propósito}{Llevar a cabo la edición de zonas turísticas en el sistema.}
+		\UCitem{Entradas}{
+			\begin{UClist}
+				\UCli Nombre de la zona turística
+				\UCli Descripción de la zona turística
+				\UCli Estado de la República Mexicana en el cual se encuentra la zona turística
+				\UCli Imagen o fotografía de la zona turística
+				\UCli Polígono delimitador de la zona turística
+			\end{UClist}
+		}
+		\UCitem{Origen}{
+			\begin{UClist}
+				\UCli \ioSistema
+				\UCli \ioSeleccionar
+				\UCli \ioDibujar
+			\end{UClist}
+		}
+		\UCitem{Salidas}{Se mostrará el mensaje \cdtIdRef{MSG1}{Operación Existosa} cuando la edición se lleve a cabo de manera correcta.}
+		\UCitem{Precondiciones}{La zona turística debe existir.}
+		\UCitem{Postcondiciones}{
+			\begin{UClist}
+				\UCli Se podrán agregar servicios turísticos a la zona.
+				\UCli El turista podrá consultar la información de la zona turística.
+			\end{UClist}	
+		}
+		\UCitem{Reglas de negocio}{
+			\begin{UClist}
+				\UCli \cdtIdRef{BR-003}{Formato de cámpo válido}
+				\UCli \cdtIdRef{BR-004}{Formato válido para archivos}
+			\end{UClist}	
+		}
+		\UCitem{Errores}{
+			\begin{UClist}
+				\UCli \UCerr{Uno}{Cuando la imagen seleccionada no cumple con la reglas \cdtIdRef{BR-S004}{Formato válido para archivos},}{muestra el mensaje \cdtIdRef{MSG}{Imagen con formato no válido} y regresa al paso \ref{RA-CU3.2:SeleccionImagen} de la trayectoria principal.}
+				\UCli \UCerr{Dos}{Cuando los campos ingresados no cumplen con la regla \cdtIdRef{BR-003}{Formato de campo válido},}{muestra el mensaje \cdtIdRef{MSG4}{Formato de campo inválido} y regresa al paso \ref{RA-CU3.2:IngresaDatos} de la trayectoria principal.}
+				\UCli \UCerr{Tres}{Cuando no se puede llevar a cabo de manera correcta la operación,}{se muestra el mensaje \cdtIdRef{MSG2}{Operación Fallida} y termina el caso de uso.}
+			\end{UClist}	
+		}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{RA-CU3}{Gestionar Zonas Turísticas}}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso [\UCactor] Solicita editar una zona turística dando clic en el icono \IUEditar{} en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+		\UCpaso \label{RA-CU3.2:MuestraPantalla} Muestra la pantalla \IUref{RA-IU3.2}{Editar Zona Turística} con el formulario de edición de una zona turística en el sistema.
+		
+		\UCpaso [\UCactor] \label{RA-CU3.2:IngresaDatos} Ingresa los datos solicitados en el paso \ref{RA-CU3.2:MuestraPantalla} de la trayectoria principal.
+		
+		\UCpaso [\UCactor] Solicita agregar la imagen de la zona turística presionando el botón \IUbutton{Seleccionar imagen}.
+		
+		\UCpaso  Despliega el seleccionador de archivos.
+		
+		\UCpaso [\UCactor] \label{RA-CU3.2:SeleccionImagen} Selecciona la imagen que requiere agregar a la zona turística.
+		
+		\UCpaso [\UCactor] Solicita finalizar la selección de imagen presionando el botón \IUbutton{Seleccionar}.
+		
+		\UCpaso Verifica que la imagen cumpla el formato requerido, con base en la regla \cdtIdRef{BR-S004}{Formato válido para archivos}. \refErr{Uno}
+		
+		\UCpaso [\UCactor] Traza el área correspondiente a la zona turística en el mapa, seleccionando la acción \IUTrazar{} en el mapa.
+		
+		\UCpaso [\UCactor] Solicita finalizar el registro de la zona turística, presionando el botón \IUbutton{Guardar} en la pantalla \IUref{RA-IU3.1}{Registrar Zona Turística}. \refTray{A}
+		
+		\UCpaso Verifica que los datos proporcionados cumplan con la regla \cdtIdRef{BR-003}{Formato de campo válido}. \refErr{Dos}
+		
+		\UCpaso Persiste los datos ingresados. \refErr{Tres}
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación Exitosa} indicando que la operación se llevó a cabo de manera correcta.
+		
+		\UCpaso Regresa a la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando el actor requiere cancelar la operación.}
+		
+		\UCpaso [\UCactor] Solicita cancelar la operación presionando el botón \IUbutton{Cancelar} en la pantalla \IUref{RA-IU3.1}{Registrar Zona Turística}.
+		
+		\UCpaso Elimina los datos ingresados en el formulario.
+		
+		\UCpaso Regresa a la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+	\end{UCtrayectoriaA}

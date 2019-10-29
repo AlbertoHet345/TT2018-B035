@@ -1,0 +1,40 @@
+\begin{UseCase}{RA-CU3.4}{Gestionar Servicios Turísticos}{
+		
+		Permite llevar a cabo las operaciones pertinentes para tener el control de los servicios turísticos pertenecientes a una zona turística.\\
+		
+		Es importante tener el control de los servicios turísticos, ya que el \cdtRef{actor:turista}{Turista} podrá consultar estos servicios y generar rutas entre estos servicios.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:admin}{Administrador}}
+		\UCitem{Propósito}{Tener el control de los servicios turísticos pertenecientes a una zona turística.}
+		\UCitem{Entradas}{Id de la zona turística}
+		\UCitem{Origen}{\ioSistema}
+		\UCitem{Salidas}{Id, Nombre, Puntuación, Ubicación y Descripción de los servicios turísticos pertenecientes a la zona turística.}
+		\UCitem{Precondiciones}{Ninguna.}
+		\UCitem{Postcondiciones}{
+			\begin{UClist}
+				\UCli Se podrá agregar, editar o eliminar servicios turísticos a la zona seleccionada.
+				\UCli El turista podrá consultar la información de los servicios turísticos.
+			\end{UClist}	
+		}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{Ninguna}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{RA-CU3}{Gestionar Zonas Turísticas}}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso [\UCactor] Solicita gesitonar los serivicios turísticos de una zona turística dando en el nombre de la zona turística en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+		\UCpaso Verifica si existen servicios turísticos asociados a la zona turística seleccionada. \refTray{A}
+		
+		\UCpaso Obtiene el id, nombre, puntuación, ubicación y descripción de los servicios turísticos pertenecientes a la zona turística seleccionada.
+		
+		\UCpaso Muestra la pantalla \IUref{RA-IU3.4}{Gestionar Servicios Turísticos} con la información obtenida.
+		
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando no existen servicios turísticos asociados a la zona turística seleccionada.}
+		
+		\UCpaso Muestra la pantalla \IUref{RA-IU3.4}{Gestionar Servicios Turísticos} vacía.
+		
+	\end{UCtrayectoriaA}

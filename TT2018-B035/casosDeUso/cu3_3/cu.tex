@@ -1,0 +1,40 @@
+	\begin{UseCase}{RA-CU3.3}{Eliminar Zona Turística}{
+		
+		Permite llevar a cabo la eliminación de una zona turística del sistema. Sin embargo debe considerarse que al eliminar una zona turística se eliminarán todos aquellos datos que estén asociados a ésta, así mismo se eliminarán los servicios turísticos asociados a dicha zona turística, así como los comentarios y puntuaciones realizados a dichos servicios.
+	}
+		\UCitem{Versión}{\color{Gray}1.0}
+		\UCitem{Actor}{\cdtRef{actor:admin}{Administrador}}
+		\UCitem{Propósito}{Eliminar del sistema una zona turística.}
+		\UCitem{Entradas}{Id de la zona turística}
+		\UCitem{Origen}{\ioSistema}
+		\UCitem{Salidas}{Se mostrará el mensaje \cdtIdRef{MSG1}{Operación Existosa} cuando la eliminación se lleve a cabo de manera correcta.}
+		\UCitem{Precondiciones}{La zona turística debe existir.}
+		\UCitem{Postcondiciones}{Ninguna}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{\UCerr{Uno}{Cuando no se puede llevar a cabo de manera correcta la operación,}{se muestra el mensaje \cdtIdRef{MSG2}{Operación Fallida} y termina el caso de uso.}}
+		\UCitem{Tipo}{Extiende de \cdtIdRef{RA-CU3}{Gestionar Zonas Turísticas}}
+	\end{UseCase}
+%--------------------------------------
+	\begin{UCtrayectoria} 
+		\UCpaso [\UCactor] Solicita eliminar una zona turística dando clic en el icono \IUEliminar{} en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+		\UCpaso \label{RA-CU3.3:MuestraMensaje} Muestra el mensaje \cdtIdRef{MSG}{Confirmación de eliminación} en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+		\UCpaso [\UCactor] Confirma la operación presionando el botón \IUbutton{Sí} en el mensaje mostrado en el paso \ref{RA-CU3.3:MuestraMensaje} de la trayectoria principal. \refTray{A}
+		
+		\UCpaso Elimina los elementos asociados a la zona turística que será eliminada. \refErr{Uno}
+		
+		\UCpaso Elimina la zona turísitca seleccionada. \refErr{Uno}
+		
+		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación Exitosa} indicando que se ha eliminado de manera correcta la zona turística.
+		
+		\UCpaso Continua en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+		
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando el actor requiere cancelar la operación.}
+		
+		\UCpaso [\UCactor] Solicita cancelar la operación presionando el botón \IUbutton{No} en el mensaje mostrado en el paso \ref{RA-CU3.3:MuestraMensaje} de la trayectoria principal.
+		
+		\UCpaso Continua en la pantalla \IUref{RA-IU3}{Gestionar Zonas Turísticas}.
+	\end{UCtrayectoriaA}

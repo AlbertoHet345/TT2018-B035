@@ -11,9 +11,9 @@
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
 	\begin{UseCase}{RE-CU1}{Registrar Usuario}{
-		Este caso de uso permite al turista ingresar su información básica, esto para poder tener una cuenta única dentro del sistema y estar registrado con su información asociada. Es importante el registro en la aplicación, ya que de esta forma el turista podrá acceder a la información sobre los sitios turísticos que se encuentren registrados en el sistema.\\
+		Permite al \hyperlink{actor:turista}{Turista} ingresar su información básica para poder tener una cuenta única dentro del sistema. Es importante el registro en la aplicación, ya que de esta forma el turista podrá acceder a la información de las zonas turísticas que se encuentran en el sistema.\\
 		
-		El registro de un nuevo usuario puede hacerse mediante el uso de una cuenta de Facebook o una cuenta de Google que el turista ya tenga creada. Sin embargo, otra forma de registrarse en la aplicación puede ser mediante el uso de un correo electrónico del turista. \\
+		El registro de un nuevo usuario sólo podrá realizarse mediante Inicio de Sesión con Apple (Sign in with Apple\footnote{Ver \url{https://developer.apple.com/sign-in-with-apple/}}, por su nombre en inglés) debido a que la aplicación es únicamente para dispositivos iPhone y permitirá que la aplicación cuente sólo con usuarios reales ya que para ingresar deberá contar con un Apple ID.\\
 		
 		Así mismo este caso de uso permitirá el inicio de sesión, en caso de que el turista ya se encuentre registrado en la aplicación.
 	}
@@ -22,33 +22,37 @@
 		\UCitem{Propósito}{Que el turista pueda registrarse para acceder a la aplicación o, si ya se encuentra registrado, iniciar sesión en la misma.}
 		\UCitem{Entradas}{
 			\begin{UClist}
-				\UCli Cuenta de Facebook
-				\UCli Cuenta de Google
-				\UCli Correo electrónico
-				\UCli Nombre de usuario
-				\UCli Contraseña
+				\UCli Apple ID del turista.
+				\UCli Correo electrónico asociado al Apple ID del turista.
+				\UCli Nombre del turista asociado al Apple ID.
 			\end{UClist}
 		}
-		\UCitem{Origen}{\ioEscribir}
+		\UCitem{Origen}{
+			\begin{UClist}
+				\UCli \ioSistema
+				\UCli \ioEscribir
+			\end{UClist}
+		}
 		\UCitem{Salidas}{Ninguna}
-		\UCitem{Precondiciones}{El usurario debe haber instalado la aplicación en su teléfono o tener una cuenta creada para iniciar sesión}
-		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única, o accederá a la aplicación.}
-		\UCitem{Reglas de negocio}{
+		\UCitem{Precondiciones}{
 			\begin{UClist}
-				\UCli \cdtIdRef{BR-001}{Longitud válida para contraseñas}
-				\UCli \cdtIdRef{BR-002}{Longitud válida para nombre de usuario}
+				\UCli El turista debe haber instalado la aplicación en su iPhone.
+				\UCli El turista debe contar con un Apple ID.
+				\UCli El turista debe tener una cuenta creada en el sistema para iniciar sesión.
 			\end{UClist}
 		}
+		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única, o accederá a la aplicación.}
+		\UCitem{Reglas de negocio}{\cdtIdRef{BR-001}{Iniciar Sesión con Apple}}
 		\UCitem{Errores}{
-			\begin{UClist}
-				\UCli \UCerr{Uno}{Cuando el correo ingresado no el correo ingresado ya se encuentra registrado en el sistema,}{se muestra el mensaje \cdtIdRef{MSG3}{Correo existente} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
-				\UCli \UCerr{Dos}{Cuando el correo ingresado es nulo o no cumple con el tipo de dato y longitud,}{se muestra el mensaje \cdtIdRef{MSG2}{Correo inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
-				\UCli \UCerr{Tres}{Cuando la contraseña ingresada no cumple con la regla \cdtIdRef{BR-001}{Longitud válida para contraseñas},}{se muestra el mensaje \cdtIdRef{MSG4}{Formato de campo inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
-				\UCli \UCerr{Cuatro}{Cuando el nombre de usuario ingresado no cumple la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario},}{muestra el mensaje \cdtIdRef{MSG4}{Formato de campo inválido} y continua \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
-				\UCli \UCerr{Cinco}{Cuando el turista no acepta los términos y condiciones,}{muestra el mensaje \cdtIdRef{MSG5}{Campo Obligatorio} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
-				\UCli \UCerr{Seis}{Cuando no se puede llevar a cabo la operación de manera exitosa,}{muestra el mensaje \cdtIdRef{MSG6}{Operación fallida} y termina el caso de uso.}
-				\UCli \UCerr{Siete}{Cuando el correo electrónico o la contraseña ingresados son incorrectos,}{muestra el mensaje \cdtIdRef{MSG7}{Correo y/o contraseña incorrectos} y continua en el paso \ref{RE-CU1:iniciarSesion} de la trayectoria alterna \textbf{A}.}
-			\end{UClist}
+%			\begin{UClist}
+%				\UCli \UCerr{Uno}{Cuando el correo ingresado no el correo ingresado ya se encuentra registrado en el sistema,}{se muestra el mensaje \cdtIdRef{MSG3}{Correo existente} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+%				\UCli \UCerr{Dos}{Cuando el correo ingresado es nulo o no cumple con el tipo de dato y longitud,}{se muestra el mensaje \cdtIdRef{MSG2}{Correo inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+%				\UCli \UCerr{Tres}{Cuando la contraseña ingresada no cumple con la regla \cdtIdRef{BR-001}{Longitud válida para contraseñas},}{se muestra el mensaje \cdtIdRef{MSG4}{Formato de campo inválido} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+%				\UCli \UCerr{Cuatro}{Cuando el nombre de usuario ingresado no cumple la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario},}{muestra el mensaje \cdtIdRef{MSG4}{Formato de campo inválido} y continua \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+%				\UCli \UCerr{Cinco}{Cuando el turista no acepta los términos y condiciones,}{muestra el mensaje \cdtIdRef{MSG5}{Campo Obligatorio} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
+%				\UCli \UCerr{Seis}{Cuando no se puede llevar a cabo la operación de manera exitosa,}{muestra el mensaje \cdtIdRef{MSG6}{Operación fallida} y termina el caso de uso.}
+%				\UCli \UCerr{Siete}{Cuando el correo electrónico o la contraseña ingresados son incorrectos,}{muestra el mensaje \cdtIdRef{MSG7}{Correo y/o contraseña incorrectos} y continua en el paso \ref{RE-CU1:iniciarSesion} de la trayectoria alterna \textbf{A}.}
+%			\end{UClist}
 		}
 		\UCitem{Tipo}{Caso de uso primario}
 	\end{UseCase}

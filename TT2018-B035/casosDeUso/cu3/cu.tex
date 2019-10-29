@@ -10,42 +10,41 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{CU3}{Principal}{
-		Este caso de uso permite al usuario visualizar las opciones de actividades a realizar ya sea consultar los servicios o generar una ruta. 
+	\begin{UseCase}{RA-CU3}{Gestionar Zonas Turísticas}{
+		Permite llevar a cabo las operaciones necesarias para tener el control de las zonas turísticas dentro del sistema. Dichas operaciones son: registrar, editar y eliminar.\\
+		
+		Es importante tener el control de estas zonas ya que los turistas podrán acceder a ellas mediante su aplicación móvil y podrán consultar la información de las zonas, así como sus respectivos servicios turísticos. 
 	}
 		\UCitem{Versión}{\color{Gray}1.0}
-		\UCitem{Actor}{\hyperlink{Usuario}{Usuario}}
-		\UCitem{Propósito}{Desplegar las opciones de actividades para un área seleccionada.}
-		\UCitem{Entradas}{N.A.}
-		\UCitem{Origen}{N.A.}
-		\UCitem{Salidas}{Listado de Servicios Turísticos de un área}
-		\UCitem{Precondiciones}{El usurario requiere haber seleccionado un área turística.}
-		\UCitem{Postcondiciones}{N.A.}
-		\UCitem{Errores}{}
-		\UCitem{Tipo}{Caso de uso Secundario}
-		\UCitem{Observaciones}{}
+		\UCitem{Actor}{\hyperlink{administrador}{Administrador}}
+		\UCitem{Propósito}{Tener el control de las zonas turísticas.}
+		\UCitem{Entradas}{Ninguna}
+		\UCitem{Origen}{Ninguno.}
+		\UCitem{Salidas}{Se muestran las zonas turísticas que se encuentran dentro del sistema.}
+		\UCitem{Precondiciones}{Ninguna.}
+		\UCitem{Postcondiciones}{Se podrá llevar a cabo la gestión de las zonas turísticas.}
+		\UCitem{Reglas de negocio}{Ninguna}
+		\UCitem{Errores}{Ninguno}
+		\UCitem{Tipo}{Caso de uso Primario}
 	\end{UseCase}
 %--------------------------------------
 	\begin{UCtrayectoria} 
 		
-		\UCpaso[\UCactor] Selecciona un área turística de la pantalla \IUref{IU7}{Principal Zonas}.
+		\UCpaso [\UCactor] Selecciona la opción \textbf{Zonas turísticas} del menú \cdtIdRef{MN2}{Menú del administrador}.
 		
-		\UCpaso Verifica que el área o zona seleccionada corresponda con la posición actual del usuario.\Trayref{A}.
+		\UCpaso Verifica si existen zonas turísticas registradas en el sistema. \refTray{A}
 		
-		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} con los botones \IUbutton{Generar ruta a partir de la ubicación actual}, \IUbutton{Servicios turísticos en el área} habilitados.
-
-		\UCpaso[] Termina el caso de uso.
+		\UCpaso Obtiene el id, nombre, ubicación, puntuación y descripción, de todas las zonas turísticas registradas en el sistema.
+		
+		\UCpaso Muestra la pantalla \cdtIdRef{RA-IU3}{Gestionar Zonas Turísticas} 
 		
 	\end{UCtrayectoria}
 
 %--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{El usuario no se encuentra ubicado en alguna zona turística registrada}
-		\UCpaso Deshabilita el botón \IUbutton{Generar ruta a partir de la ubicación actual}.
+
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando no se cuenta con zonas turísticas registradas en el sistema.}
 		
-		\UCpaso Despliega la pantalla \IUref{IU8}{Principal} unicamente con el botón \IUbutton{Servicios turísticos en el área} habilitado.
-		
-		\UCpaso[] Termina el caso de uso.
+		\UCpaso Muestra el la pantalla \cdtIdRef{RA-IU3}{Gestionar Zonas Turísticas} vacía.
 		
 	\end{UCtrayectoriaA}
-	
 	
