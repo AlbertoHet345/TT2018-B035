@@ -1,12 +1,13 @@
 \section{Patrón de diseño: Modelo Vista Controlador}
-Modelo Vista Controlador es un patrón de diseño de software el cual separa los datos de la aplicación, la interfaz de usuario y la lógica de control en tres componentes distintos.\\
+El patrón de diseño de software Modelo Vista Controlador se encarga de separar en tres distintos componentes la interfaz de usuario, la lógica de control y los datos de la aplicación. Dichos componentes son:\\
 
 \begin{itemize}
-	\item \textbf{Modelo}: contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
+	\item \textbf{Modelo}: es el encargado de los datos que serán manejados en el sistema, contiene los meccanismos de persistencia y la lógica de negocio de estos\cite{mvc}.\\
 	
-	\item \textbf{Vista}: compone la información que se envía al cliente y los mecanismos interacción con éste.
+	\item \textbf{Vista}: se encarga de componer la información que será enviada al cliente, así como los mecanismos de interacción con éste\cite{mvc}.
 	
-	\item \textbf{Controlador}: actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
+	\item \textbf{Controlador}: se encarga de gestionar el flujo de información entre el Modelo y la Vista, es decir, transforma los datos del Modelo para las necesidades de la Vista.
+	
 \end{itemize}
 
 La Figura \ref{fig:mvc} muestra a grandes razgos un diagrama de como opera el patrón de diseño
@@ -15,7 +16,7 @@ La Figura \ref{fig:mvc} muestra a grandes razgos un diagrama de como opera el pa
 	\begin{center}
 		\hypertarget{fig:mvc}{
 			\includegraphics[scale=.3]{propuestaSolicion/turismo/images/mvc}
-			\caption{Modelo Vista Controlador}\cite{MVC}
+			\caption{Modelo Vista Controlador\cite{mvcImagen}}
 		}
 		\label{fig:mvc}
 	\end{center}
@@ -26,28 +27,26 @@ A continuación se describen las principales responsabilidades de cada uno de lo
 
 \subsection{Modelo}
 \begin{itemize}
-	\item Se encarga de acceder a la capa de almacenamiento de datos. Idealmente el modelo debe ser independiente del sistema de almacenamiento. 
+	\item Manipular, gestionar y actualizar los datos\cite{mvc2}.
 	
-	\item Definir las reglas de negocio.
+	\item Consultas, búsquedas, filtros y actualizaciones de base de datos\cite{mvc2}.
 	
-	\item Llevar un registro de las vistas y controladores del sistema.
+	\item Definir las reglas de negocio\cite{mvc2}.
 	
-	\item Notificar a las vistas los cambios que pueda producir un agente externo a los datos.
 \end{itemize}
 
 \subsection{Vista}
 \begin{itemize}
-	\item Recibir datos del modelo y mostrarlos al usuario.
+	\item Recibir datos del modelo y mostrarlos al usuario (pantallas, ventanas, formularios)\cite{mvc2}.
 	
-	\item Tener un registro de su controlador asociado.
-	
-	\item Dar un servicio de actualización para que sea invocado por el controlador o por el modelo
 \end{itemize}
 
 \subsection{Controlador}
 \begin{itemize}
-	\item Recibir eventos de entrada.
+	\item Recibir instrucciones, atenderlas y procesarlas\cite{mvc2}.
 	
-	\item Contener reglas de gestón de eventos.
+	\item Comunicar al Modelo con la Vista\cite{mvc2}.
+	
+	\item Solicitar datos y manipularlos para ser presentados\cite{mvc2}.
 \end{itemize}
 
