@@ -10,73 +10,50 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{LR-CU2.1}{Visualizar Actividades Turísticas}{
+	\begin{UseCase}{LR-CU2.1}{Visualizar Información de Zona Turística}{
 		
-		Permite realizar la consulta de las actividades turísticas que pueden ser realizadas en una zona turística, estas actividades pueden  variar dependiendo de la zona en la que se encuentre el turista. La zona turística puede ser la zona actual o alguna otra que haya sido visitada por el turista.\\
+		Permite realizar la consulta de la información de alguna zona turística que sea del interés del \cdtRef{actor:turista}{Turista}. La zona turística puede ser la zona actual o alguna otra zona turística dentro del sistema.\\
 		
 	}
 		\UCitem{Versión}{\color{Gray}1.0}
 		\UCitem{Actor}{\cdtRef{actor:turista}{Turista}}
 		\UCitem{Propósito}{Visualizar el listado de las zonas turísticas.}
-		\UCitem{Entradas}{
-			\begin{UClist}
-				\UCli Zonas turísticas
-				\UCli Tipo de actividades turísticas
-			\end{UClist}
-		}
+		\UCitem{Entradas}{Zona turística}
 		\UCitem{Origen}{\ioSistema}
-		\UCitem{Salidas}{Tipos de actividades turísticas}
+		\UCitem{Salidas}{Información sobre la zona turística}
 		\UCitem{Precondiciones}{Haber seleccionado una zona turística.}
-		\UCitem{Postcondiciones}{Podrá visualizar las actividades turísticas.}
+		\UCitem{Postcondiciones}{Podrá visualizar la información de la zona turística.}
 		\UCitem{Reglas de negocio}{Ninguna}
-		\UCitem{Errores}{\UCerr{Uno}{Cuando el turista no se encuentra en una zona turística registrada,}{muestra el mensaje \cdtIdRef{MSG}{No se puede generar ruta} y regresa al paso \ref{LR-CU2.1:Pantalla1} de la trayectoria principal.}}
+		\UCitem{Errores}{Ninguno}
 		\UCitem{Tipo}{Extiende de \cdtIdRef{LR-CU2}{Obtener Zonas Turísticas}}
 	\end{UseCase}
 %--------------------------------------
 	\begin{UCtrayectoria} 
-		\UCpaso [\UCactor] Solicita visualizar las actividades turísticas seleccionando una zona turística en la pantalla \IUref{LR-IU2}{Zonas turísticas}.
+		\UCpaso [\UCactor] Solicita visualizar la información seleccionando una zona turística en la pantalla \IUref{LR-IU2}{Zonas turísticas}.
 		
-		\UCpaso Verifica que la zona turística seleccionada sea la actual. \refTray{A}
+		\UCpaso Obtiene el nombre y la descripción de la zona turística seleccionada.
 		
-		\UCpaso Habilita las opciones \textbf{Generar ruta a partir de la ubicación actual} y \textbf{Servicios turísticos cerca de mí}.
+		\UCpaso Muestra la pantalla \IUref{LR-IU2.1a}{Zona Turística}. \refTray{A}
 		
-		\UCpaso \label{LR-CU2.1:Pantalla1} Muestra la pantalla \IUref{LR-IU2.1a}{Zona turística}.
+		\UCpaso [\UCactor] Solicita ver el mapa de la zona turística tocando el botón \IUbutton{Ver mapa}.
 		
-		\UCpaso [\UCactor] Solicita visualizar las actividades turísticas seleccionando la opción \textbf{Servicios turísticos cerca de mi}. \refTray{B}
+		\UCpaso Obtiene las coordenadas de la zona turística.
 		
-		\UCpaso Obtiene los servicios turísticos asociados a la zona turística previamente seleccionada.
+		\UCpaso Obtiene las coordenadas de los servicios turísticos que pertenecen a la zona turística seleccionada.
 		
-		\UCpaso \label{LR-CU2.1:Pantalla} Muestra la pantalla \IUref{LR-IU2.1b}{Servicios turísticos}.
+		\UCpaso \label{LR-CU2.1:Pantalla2} Muestra la pantalla \IUref{LR-IU2.1b}{Mapa de Zona Turística}.
 		
-	\end{UCtrayectoria}
+	\end{UCtrayectoria}	
 
-%--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{Cuando la zona turística seleccionada no es la actual.}
-			
-			\UCpaso Inhabilita la opción \textbf{Generar ruta a partir de la ubicación actual}.
-			
-			\UCpaso Muestra la pantalla \IUref{LR-IU2.1a}{Zona turística}.
-			
-			\UCpaso [\UCactor] Solicita visualizar las actividades turísticas seleccionando la opción \textbf{Servicios turísticos cerca de mi}.
-			
-			\UCpaso Obtiene los servicios turísticos asociados a la zona turística previamente seleccionada.
-			
-			\UCpaso Continua en el paso \ref{LR-CU2.1:Pantalla} de la trayectoria principal.
-		\end{UCtrayectoriaA}
-	
-	
-	\begin{UCtrayectoriaA}[Fin del caso de uso]{B}{Cuando el turista requiere generar una ruta turística a partir de su ubicación actual.}
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{A}{Cuando el actor requiere ver los serivicios turísticos de la zona.}
 		
-		\UCpaso [\UCactor] Solicita generar una ruta turística a partir de su ubicación actual seleccionando la opción \textbf{Generar ruta a partir de la ubicación actual} en la pantalla \IUref{LR-IU2.1a}{Zona turística}.
+		\UCpaso [\UCactor] Solicita ver los servicios turísticos que pertenecen a la zona turística seleccionada.
 		
-		\UCpaso Verifica que el turista se encuentre actualmente en una zona turística registrada. \refErr{Uno}
-		
-		\UCpaso \label{LR-CU2.1:EjecutaCaso} Ejecuta el caso de uso \cdtIdRef{LR-CU2.1.1}{Generar ruta turística}.
+		\UCpaso \label{LR-CU2.1:Pantalla1} Continua en el caso de uso \cdtIdRef{SE-CU2.1.2}{Consultar Información de Servicios Turísticos}
 		
 	\end{UCtrayectoriaA}
 	
-	
 	\subsection{Puntos de extensión}
-	\UCExtenssionPoint{El turista requiere visualizar la información de los servicios turísticos.}{En el paso \ref{LR-CU2.1:Pantalla} de la trayectoria principal.}{\cdtIdRef{LR-CU2.1.2}{Consultar información de servicios turísticos}.}
+	\UCExtenssionPoint{El turista requiere visualizar la información de los servicios turísticos.}{En el paso \ref{LR-CU2.1:Pantalla1} de la trayectoria alterna \textbf{A}.}{\cdtIdRef{LR-CU2.1.2}{Consultar información de servicios turísticos}.}
 	
-	\UCExtenssionPoint{El turista requiere generar una ruta turística a partir de su ubicación actual.}{En el paso \ref{LR-CU2.1:EjecutaCaso} de la trayectoria alterna \textbf{B}.}{\cdtIdRef{LR-CU2.1.1}{Generar ruta turística}.}
+	\UCExtenssionPoint{El turista requiere generar una ruta turística a partir de su ubicación actual.}{En el paso \ref{LR-CU2.1:Pantalla2} de la trayectoria principal.}{\cdtIdRef{LR-CU2.1.1}{Generar ruta turística}.}

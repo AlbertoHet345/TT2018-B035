@@ -42,7 +42,7 @@
 			\end{UClist}
 		}
 		\UCitem{Postcondiciones}{El usuario quedará registrado en el sistema, con una cuenta única, o accederá a la aplicación.}
-		\UCitem{Reglas de negocio}{\cdtIdRef{BR-001}{Iniciar Sesión con Apple}}
+		\UCitem{Reglas de negocio}{\cdtIdRef{BR-001}{Iniciar Sesión con Apple ID}}
 		\UCitem{Errores}{
 %			\begin{UClist}
 %				\UCli \UCerr{Uno}{Cuando el correo ingresado no el correo ingresado ya se encuentra registrado en el sistema,}{se muestra el mensaje \cdtIdRef{MSG3}{Correo existente} y continua en el paso \ref{RE-CU1:IntroduceInformacion} de la trayectoria principal.}
@@ -60,81 +60,82 @@
 	\begin{UCtrayectoria}
 		\UCpaso [\UCactor] Ingresa a la aplicación tocando el icono \IUref{IU0}{Icono de la aplicación} en la pantalla de su teléfono.
 		
-		\UCpaso Despliega la pantalla  \IUref{IU1}{Bienvenida}.
+		\UCpaso Se mostrará la pantalla \IUref{RE-IU1a}{Login}, la cual contiene el botón para iniciar sesión mediante Apple ID.
 		
-		\UCpaso [\UCactor] Continua tocando el  botón \IUbutton{Continuar} de la pantalla \IUref{IU1}{Bienvenida}.
+		\UCpaso [\UCactor] Solicita registrarse en la aplicación tocando el botón \IUBotonApple{}.
 		
-		\UCpaso Muestra la pantalla \IUref{RE-IU1a}{Registrar Usuario} mostrando las diferentes opciones de registro \IUbutton{Entrar con FB}, \IUbutton{Entrar con Google}, \IUbutton{Iniciar Sesión} y \IUbutton{Registrarse}.
+		\UCpaso Verifica si el usuario se encuentra registrado en la aplicación. \refTray{A}
 		
-		\UCpaso [\UCactor] Selecciona registrarse mediante correo electrónico, tocando la opción \IUbutton{Registrarse}. \refTray{A} \refTray{B}.
+		\UCpaso Se mostrará la pantalla \IUref{RE-IU1b}{Iniciar Sesión con Apple} la cual muestra el anuncio de privacidad emitido por Apple.
 		
-		\UCpaso Muestra la pantalla \IUref{RE-IU1d}{Registrar Usuario por Correo} mostrando los campos que el usuario debe ingresar.
+		\UCpaso [\UCactor] Solicita continuar con el registro tocando el botón \IUbutton{Continuar}. \refTray{B}
 		
-		\UCpaso [\UCactor] \label{RE-CU1:IntroduceInformacion}. Introduce y selecciona la información solicitada en pantalla.
+		\UCpaso Se mostrará la pantalla \IUref{RE-IU1c}{Apple ID}, la cual muestra la información que el usuario podrá elegir mostrar o no.
 		
-		\UCpaso [\UCactor] Solicita finalizar el registro tocando el botón \IUbutton{Registrarse}.
+		\UCpaso [\UCactor] \label{RE-CU1:Correo} Solicita mostrar su correo electrónico seleccionando la opción \textbf{Compartir mi correo}. \refTray{C} \refTray{D}
 		
-		\UCpaso Verifica que el correo electrónico ingresado no se haya registrado anteriormente y no sea nulo.\refErr{Uno} \refErr{Dos} \refTray{C}
+		\UCpaso \label{RE-CU1:Boton} Habilita el botón \IUbutton{Continuar con mi contraseña}.
 		
-		\UCpaso Verifica que la contraseña cumpla con la longitud y el tipo de dato, con base en la regla \cdtIdRef{BR-001}{Longitud válida para contraseñas}. \refErr{Tres} \refTray{D}.
-			
-		\UCpaso Verifica que el nombre de usuario cumpla con la longitud y el tipo de dato, con base en la regla \cdtIdRef{BR-002}{Longitud válida para nombre de usuario}. \refErr{Cuatro} \refTray{E}.
+		\UCpaso [\UCactor] Solicita continuar con la operación tocando el botón \IUbutton{Continuar con mi contraseña}. \refTray{B}
 		
-		\UCpaso Verifica que se haya seleccionado la opción de aceptar términos y condiciones. \refErr{Cinco} \refTray{F}.
+		\UCpaso Se mostrará la pantalla \IUref{RE-IU1d}{Apple ID Contraseña}.
 		
-		\UCpaso Registra al usuario en el sistema con una cuenta única. 
+		\UCpaso [\UCactor] Ingresa la contraseña de su Apple ID.
 		
-		\UCpaso Muestra el mensaje \cdtIdRef{MSG1}{Operación exitosa} indicando que el registro fue exitoso.
+		\UCpaso [\UCactor] Solicita continuar con el registro tocando el botón \IUbutton{Continuar}. \refTray{E}
 		
-		\UCpaso \label{RE-CU1:Pantalla}Muestra la pantalla \IUref{LR-IU2}{Zonas Turísticas}.
+		\UCpaso Verifica que la contraseña ingresada pertenezca al Apple ID del usuario. \refErr{Uno}
 		
+		\UCpaso Realiza el registro del usuario. \refErr{Dos}
+		
+		\UCpaso \label{RE-CU1:PantallaZonasTuristicas} Muestra la pantalla \IUref{LR-IU2}{Zonas Turísticas}.
+	
 	\end{UCtrayectoria}
 
 %--------------------------------------		
-	\begin{UCtrayectoriaA}{A}{El turista requiere iniciar sesión mediante correo electrónico, tocando la opción \IUbutton{Iniciar sesión}}
+	\begin{UCtrayectoriaA}{A}{Cuando el turista ya se encuentra registrado en el sistema.}
 			
-		\UCpaso Despliega la pantalla \IUref{IU5}{Iniciar Sesión} mostrando los campos que el usuario debe ingresar.
+			\UCpaso Muestra la pantalla \IUref{RE-IU1d}{Apple ID Contraseña}.
 			
-		\UCpaso [\UCactor] \label{RE-CU1:iniciarSesion}. Introduce y selecciona la información solicitada en pantalla.
-		
-		\UCpaso [\UCactor] Solicita iniciar sesión tocando el botón \IUbutton{Ingresar}. 
+			\UCpaso [\UCactor] Ingresa la contraseña de su Apple ID.
 			
-		\UCpaso Verifica que el correo electrónico se encuentre registrado y no sea nulo. \refErr{Siete} 
-
-		\UCpaso Verifica que la contraseña coincida con la asociada al correo electrónico ingresado. \refErr{Siete}
+			\UCpaso [\UCactor] Solicita continuar con la operación tocando el botón \IUbutton{Continuar}. \refTray{B}
 			
-		\UCpaso Ingresa al sistema con la cuenta asociada.
+			\UCpaso Verifica que la contraseña ingresada pertenezca al Apple ID del usuario. \refErr{Uno}
 			
-		\UCpaso Continua en el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.
+			\UCpaso Continua en el paso \ref{RE-CU1:PantallaZonasTuristicas} de la trayectoria principal.
 			
 	\end{UCtrayectoriaA}
 		
 %--------------------------------------
-	\begin{UCtrayectoriaA}{B}{El turista selecciona iniciar sesión mediante Facebook o una cuenta de Google, tocando la opción \IUbutton{Entrar con FB} o \IUbutton{Entrar con Google}}
+	\begin{UCtrayectoriaA}[Fin del caso de uso]{B}{Cuando el actor requiere cancelar la operación}
 		
-		\UCpaso Verifica la cuenta de Facebook o Google asociada en el sistema del teléfono. \refTray{C}.
-				
-		\UCpaso \label{RE-CU1:FB} Despliega la pantalla \IUref{RE-IU1b}{Registrar Usuario por Facebook/Google} mostrando la cuenta asociada al teléfono inteligente ya sea de Facebook o Google respectivamente.
-			
-		\UCpaso [\UCactor] Acepta ingresar con la cuenta mostrada tocando el botón  \IUbutton{Aceptar}.
+		\UCpaso [\UCactor] Solicita cancelar la operación tocando el botón \IUbutton{Cancelar}.
 		
-		\UCpaso Ingresa al sistema con la cuenta asociada. \refErr{Seis}
-		
-		\UCpaso Continua en el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.
+		\UCpaso Regresa a la pantalla \IUref{RE-IU1a}{Login}.
 		
 	\end{UCtrayectoriaA}
 	
-	\begin{UCtrayectoriaA}{C}{El turista no mantiene una cuenta de Facebook o Google abierta en el sistema del teléfono.}
+	\begin{UCtrayectoriaA}{C}{Cuando el actor requiere cambiar su nombre de usuario.}
 		
-		\UCpaso Redirige a la aplicación correspondiente, ya sea Facebook o Google para su registro.
+		\UCpaso [\UCactor] Solicita cambiar su nombre de usuario tocando el icono \IUCambiarNombre{} en la pantalla \IUref{RE-IU1c}{Apple ID}.
 		
-		\UCpaso [\UCactor] Realiza las acciones pertinentes para poder iniciar sesión.
+		\UCpaso Se mostrará la pantalla \IUref{RE-IU1e}{Cambiar Nombre}.
 		
-		\UCpaso Continua en el paso \ref{RE-CU1:FB} de la trayectoria alterna \textbf{B}
+		\UCpaso [\UCactor] Ingresa los datos solicitados.
+		
+		\UCpaso [\UCactor] Solicita finalizar la edición tocando el botón \IUbutton{Listo}.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1:Correo} de la trayectoria principal.
+		
+	\end{UCtrayectoriaA}
+
+	\begin{UCtrayectoriaA}{D}{Cuando el actor requiere ocultar su correo electrónico.}
+		
+		\UCpaso [\UCactor] Solicita ocultar su correo electrónico tocando la opción \textbf{Ocultar mi correo} en la pantalla \IUref{RE-IU1c}{Apple ID}.
+		
+		\UCpaso Continua en el paso \ref{RE-CU1:Boton} de la trayectoria principal.
 		
 	\end{UCtrayectoriaA}
 
 %--------------------------------------
-
-\subsection{Puntos de extensión}
-\UCExtenssionPoint{Cuando el turista requiere editar su perfil}{En el paso \ref{RE-CU1:Pantalla} de la trayectoria principal.}{\cdtIdRef{RE-CU1.1}{Editar Perfil}}

@@ -2,16 +2,28 @@
 \section{RE-IU1 Registrar Usuario}
 
 \subsection{Objetivo}
-Permite el registro de un nuevo turista en el sistema. Es importante el registro para que se pueda utilizar la aplicación móvil y con ella se pueda tener acceso al sistema. El registro puede hacerse mediante Facebook, Google o por correo electrónico. Así mismo en esta pantalla se podrá iniciar sesión, si es que el usuario ya tiene creada su cuenta.
+Permite el registro de un nuevo turista en el sistema. Es importante el registro para que se pueda utilizar la aplicación móvil y con ella se pueda tener acceso al sistema. El registro debe hacerse mediante Apple ID. Así mismo en esta pantalla se podrá iniciar sesión, si es que el usuario ya tiene creada su cuenta.
 
 \subsection{Diseño}
-La Figura \ref{RE-IU1a} muestra la pantalla \IUref{RE-IU1a}{Registrar Usuario} que es la pantalla principal que mostrará la aplicación cuando un usuario no se encuentra registrado aún, en ella se puede observar cuatro botones, cada uno de estos tiene una acción diferente. Los botones \textbf{Entrar con Facebook} y \textbf{Entrar con Google} permiten al usuario registrarse, así como iniciar sesión, si se selecciona alguno de estos botones se mostrará la figura \ref{RE-IU1b} con la pantalla \IUref{RE-IU1b}{Registrar Usuario por Facebook/Google}. El botón \textbf{Iniciar Sesión} permite al usuario que ya se encuentra registrado acceder a la aplicación mediante el llenado del formulario de la figura \ref{RE-IU1c} con la pantalla \IUref{RE-IU1c}{Iniciar Sesión}. Por último, el botón \textbf{Registrarse} permite al usuario darse de alta en la aplicación ingresando la información correspondiente en la figura \ref{RE-IU1d} pantalla \IUref{RE-IU1d}{Registrar Usuario por correo}.
+En la Figura \ref{RE-IU1a} se muestra la pantalla \IUref{RE-IU1a}{Login} que es la pantalla principal que mostrará la aplicación cuando un usuario no se encuentra registrado aún, en ella se puede observar un botón, que es el de Inicio de Sesión con Apple ID. Al tocar dicho botón se mostrará la pantalla \IUref{RE-IU1b}{Iniciar Sesión con Apple}
 
-\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1a}{RE-IU1a}{Registrar Usuario}
+\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1a}{RE-IU1a}{Login}
 
-\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1b}{RE-IU1b}{Registrar Usuario por Facebook/Google}
 
-\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1c}{RE-IU1c}{Iniciar Sesión}
+\newpage
+En la Figura \ref{RE-IU1b} se puede observar la pantalla \IUref{RE-IU1b}{Iniciar Sesión con Apple} la cual contiene el aviso de privacidad que emite Apple para poder utulizar el Apple ID como forma de registro.
 
-\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1d}{RE-IU1d}{Registrar Usuario por correo}
+\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1b}{RE-IU1b}{Iniciar Sesión con Apple}
 
+En la Figura \ref{RE-IU1c} se observa la pantalla \IUref{RE-IU1c}{Apple ID}, la cual contine un formulario con los datos que el usuario puede elegir mostrar o no, para poder continuar se debe seleccionar la opción \textbf{Compartir mi correo} o la opción \textbf{Ocultar mi correo}, esto habilitará el botón \IUbutton{Continuar con mi contraseña}. Si el usuario requiere cambiar se mostrará la pantalla \IUref{RE-IU1e}{Cambiar Nombre}.
+
+\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1c}{RE-IU1c}{Apple ID}
+
+La Figura \ref{RE-IU1d} muestra pantalla \IUref{RE-IU1d}{Apple ID Contraseña} muestra un cuadro de texto en el que el usuario deberá ingresar la contraseña de su Apple ID para finalizar con el registro o inicio de sesión. Al tocar el botón \IUbutton{Continuar} se iniciará la sesión y se mostrará la pantalla \IUref{LR-IU2}{Obtener Zonas Turísticas}
+
+
+\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1d}{RE-IU1d}{Apple ID Contraseña}
+
+La Figura \ref{RE-IU1e} contiene la pantalla \IUref{RE-IU1e}{Cambiar Nombre} en la cual el usuario podrá cambiar el nombre que se mostrará en la aplicación.
+
+\IUfig[.2]{../CasosDeUso/cu1/images/RE-IU1d}{RE-IU1e}{Cambiar Nombre}
